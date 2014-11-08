@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		BD6E39851C066FBB9DD3EB01 /* libPods-BeaconBroadcaster.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4748CB7F4907AAA13A40435 /* libPods-BeaconBroadcaster.a */; };
-		CF59B52759A92DF963F2F5F4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF59B94555817B8E55406E1A /* LaunchScreen.xib */; };
 		CF59B962DAE7A9B8A162FC46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF59B301A236384CED0012BD /* ViewController.m */; };
 		CF59BDDED78DEEE722AF7DD4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF59B1034856C450862C1BF6 /* Images.xcassets */; };
 		CF59BF5A37206D146FD7262D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF59B064506FE30057E48A8D /* Main.storyboard */; };
@@ -22,7 +21,6 @@
 		CF59B1C59E1BC684D4DF4CDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF59B301A236384CED0012BD /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CF59B386640620C9991162CF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CF59B80D1162F99F52679B1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D874DDD91A0D7D0700DE9F90 /* BeaconBroadcaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeaconBroadcaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D874DDDD1A0D7D0700DE9F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D874DDDE1A0D7D0700DE9F90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -47,7 +45,6 @@
 		CF59B975E377187988AD3FAC /* Storyboards & Xibs */ = {
 			isa = PBXGroup;
 			children = (
-				CF59B94555817B8E55406E1A /* LaunchScreen.xib */,
 				CF59B064506FE30057E48A8D /* Main.storyboard */,
 			);
 			path = "Storyboards & Xibs";
@@ -182,8 +179,6 @@
 			mainGroup = D874DDD01A0D7D0600DE9F90;
 			productRefGroup = D874DDDA1A0D7D0700DE9F90 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-			);
 			projectRoot = "";
 			targets = (
 				D874DDD81A0D7D0700DE9F90 /* BeaconBroadcaster */,
@@ -197,7 +192,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF59BDDED78DEEE722AF7DD4 /* Images.xcassets in Resources */,
-				CF59B52759A92DF963F2F5F4 /* LaunchScreen.xib in Resources */,
 				CF59BF5A37206D146FD7262D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,14 +251,6 @@
 				CF59B1C59E1BC684D4DF4CDC /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CF59B94555817B8E55406E1A /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CF59B80D1162F99F52679B1C /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -353,6 +339,7 @@
 			baseConfigurationReference = E99C38E383F40474FB2B207F /* Pods-BeaconBroadcaster.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = BeaconBroadcaster/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -365,6 +352,7 @@
 			baseConfigurationReference = E5F503C152A6621C08B88324 /* Pods-BeaconBroadcaster.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = BeaconBroadcaster/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

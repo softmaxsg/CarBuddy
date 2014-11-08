@@ -11,7 +11,6 @@
 		CF59B145D6467B1947F02119 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF59BC2EE17779BDE931E5D2 /* ViewController.m */; };
 		CF59B1DF444783FF0854AF41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF59B26685924A57F1A14F6C /* Main.storyboard */; };
 		CF59B2C64F009D75BDAFEB38 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF59BD4735866FE7F4E41B01 /* Images.xcassets */; };
-		CF59B5BAB63B094CDF01407E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF59B4916D6E058BFFEDEDF7 /* LaunchScreen.xib */; };
 		D89E0B4D1A0D7B32008933CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D89E0B4C1A0D7B32008933CB /* main.m */; };
 		D89E0B501A0D7B32008933CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D89E0B4F1A0D7B32008933CB /* AppDelegate.m */; };
 /* End PBXBuildFile section */
@@ -22,7 +21,6 @@
 		CF59B3301BC574F098E91D38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF59BBAB0453057B89824DCF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CF59BC2EE17779BDE931E5D2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CF59BCFA3030AC6B5E1102CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CF59BD4735866FE7F4E41B01 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D076FE6B1D6C0BF8324451CD /* libPods-CarBuddy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarBuddy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D89E0B471A0D7B32008933CB /* CarBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,7 +88,6 @@
 		CF59BF8AC930A0588F9681E3 /* Storyboards & Xibs */ = {
 			isa = PBXGroup;
 			children = (
-				CF59B4916D6E058BFFEDEDF7 /* LaunchScreen.xib */,
 				CF59B26685924A57F1A14F6C /* Main.storyboard */,
 			);
 			path = "Storyboards & Xibs";
@@ -182,8 +179,6 @@
 			mainGroup = D89E0B3E1A0D7B32008933CB;
 			productRefGroup = D89E0B481A0D7B32008933CB /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-			);
 			projectRoot = "";
 			targets = (
 				D89E0B461A0D7B32008933CB /* CarBuddy */,
@@ -197,7 +192,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF59B2C64F009D75BDAFEB38 /* Images.xcassets in Resources */,
-				CF59B5BAB63B094CDF01407E /* LaunchScreen.xib in Resources */,
 				CF59B1DF444783FF0854AF41 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,14 +251,6 @@
 				CF59B3301BC574F098E91D38 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CF59B4916D6E058BFFEDEDF7 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CF59BCFA3030AC6B5E1102CA /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -353,6 +339,7 @@
 			baseConfigurationReference = 7D2CE797068651BCF1AF2EE2 /* Pods-CarBuddy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = CarBuddy/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -365,6 +352,7 @@
 			baseConfigurationReference = C0ADD1C5BF399DFB487A425E /* Pods-CarBuddy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = CarBuddy/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
