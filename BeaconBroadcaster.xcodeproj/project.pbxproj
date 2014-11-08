@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BD6E39851C066FBB9DD3EB01 /* libPods-BeaconBroadcaster.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4748CB7F4907AAA13A40435 /* libPods-BeaconBroadcaster.a */; };
-		CF59B962DAE7A9B8A162FC46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF59B301A236384CED0012BD /* ViewController.m */; };
+		CF59B962DAE7A9B8A162FC46 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF59B301A236384CED0012BD /* MainViewController.m */; };
 		CF59BDDED78DEEE722AF7DD4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF59B1034856C450862C1BF6 /* Images.xcassets */; };
 		CF59BF5A37206D146FD7262D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF59B064506FE30057E48A8D /* Main.storyboard */; };
 		D874DDDF1A0D7D0700DE9F90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D874DDDE1A0D7D0700DE9F90 /* main.m */; };
@@ -19,8 +19,8 @@
 		A4748CB7F4907AAA13A40435 /* libPods-BeaconBroadcaster.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BeaconBroadcaster.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF59B1034856C450862C1BF6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CF59B1C59E1BC684D4DF4CDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CF59B301A236384CED0012BD /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CF59B386640620C9991162CF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF59B301A236384CED0012BD /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		CF59B386640620C9991162CF /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		D874DDD91A0D7D0700DE9F90 /* BeaconBroadcaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeaconBroadcaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D874DDDD1A0D7D0700DE9F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D874DDDE1A0D7D0700DE9F90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -53,8 +53,8 @@
 		CF59BDDD2D24856C5ED37F01 /* Views & Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				CF59B386640620C9991162CF /* ViewController.h */,
-				CF59B301A236384CED0012BD /* ViewController.m */,
+				CF59B386640620C9991162CF /* MainViewController.h */,
+				CF59B301A236384CED0012BD /* MainViewController.m */,
 			);
 			path = "Views & Controllers";
 			sourceTree = "<group>";
@@ -238,7 +238,7 @@
 			files = (
 				D874DDE21A0D7D0700DE9F90 /* AppDelegate.m in Sources */,
 				D874DDDF1A0D7D0700DE9F90 /* main.m in Sources */,
-				CF59B962DAE7A9B8A162FC46 /* ViewController.m in Sources */,
+				CF59B962DAE7A9B8A162FC46 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
