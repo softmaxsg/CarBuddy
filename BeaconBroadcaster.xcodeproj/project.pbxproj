@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		BD6E39851C066FBB9DD3EB01 /* libPods-BeaconBroadcaster.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4748CB7F4907AAA13A40435 /* libPods-BeaconBroadcaster.a */; };
+		CF59B1F339C6F96DC6B30DC0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF59BD78E5B673042A9CF3D6 /* CoreLocation.framework */; };
+		CF59B5A6AF760C91B6D522D1 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF59B241D027F4FEA3F289F3 /* CoreBluetooth.framework */; };
 		CF59B962DAE7A9B8A162FC46 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF59B301A236384CED0012BD /* MainViewController.m */; };
 		CF59BDDED78DEEE722AF7DD4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF59B1034856C450862C1BF6 /* Images.xcassets */; };
 		CF59BF5A37206D146FD7262D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF59B064506FE30057E48A8D /* Main.storyboard */; };
@@ -19,8 +21,10 @@
 		A4748CB7F4907AAA13A40435 /* libPods-BeaconBroadcaster.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BeaconBroadcaster.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF59B1034856C450862C1BF6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CF59B1C59E1BC684D4DF4CDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF59B241D027F4FEA3F289F3 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		CF59B301A236384CED0012BD /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		CF59B386640620C9991162CF /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		CF59BD78E5B673042A9CF3D6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		D874DDD91A0D7D0700DE9F90 /* BeaconBroadcaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeaconBroadcaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D874DDDD1A0D7D0700DE9F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D874DDDE1A0D7D0700DE9F90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -36,6 +40,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD6E39851C066FBB9DD3EB01 /* libPods-BeaconBroadcaster.a in Frameworks */,
+				CF59B5A6AF760C91B6D522D1 /* CoreBluetooth.framework in Frameworks */,
+				CF59B1F339C6F96DC6B30DC0 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +125,8 @@
 			isa = PBXGroup;
 			children = (
 				A4748CB7F4907AAA13A40435 /* libPods-BeaconBroadcaster.a */,
+				CF59B241D027F4FEA3F289F3 /* CoreBluetooth.framework */,
+				CF59BD78E5B673042A9CF3D6 /* CoreLocation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
