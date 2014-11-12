@@ -8,9 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		59306D40FA78F02547C639EB /* libPods-CarBuddy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D076FE6B1D6C0BF8324451CD /* libPods-CarBuddy.a */; };
-		CF59B145D6467B1947F02119 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF59BC2EE17779BDE931E5D2 /* MainViewController.m */; };
 		CF59B1DF444783FF0854AF41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF59B26685924A57F1A14F6C /* Main.storyboard */; };
+		CF59B247EE0E811CB62E305A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF59BF0245CE298F868D2CA7 /* MainViewController.m */; };
+		CF59B2AFBD9EB0478337BAE5 /* NSString+StringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CF59BD96B393275A03E99946 /* NSString+StringUtils.m */; };
 		CF59B2C64F009D75BDAFEB38 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF59BD4735866FE7F4E41B01 /* Images.xcassets */; };
+		CF59B5E45728829AB72230E5 /* BeaconDetailsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF59B38D23C2410AC7686250 /* BeaconDetailsTableViewController.m */; };
+		CF59BA5A2C0441504AA168DC /* BeaconDetailsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF59B899BED676081C60044D /* BeaconDetailsViewModel.m */; };
+		CF59BDEFFED90AE18E71EFD3 /* BeaconDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = CF59B84626AA47E3FCCD3D98 /* BeaconDetails.m */; };
+		CF59BEF60116A880004C56C6 /* BeaconDetailsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF59B8EF078830BDE4BBC19B /* BeaconDetailsTableViewCell.m */; };
+		CF59BF5058FCFDCD201FCCC6 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF59BA1122BC12E2468FFDA1 /* SettingsViewController.m */; };
+		CF59BF583CB3F58951F3B69D /* SettingsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF59B7E2AE5A069D1BC5B72C /* SettingsViewModel.m */; };
 		D89E0B4D1A0D7B32008933CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D89E0B4C1A0D7B32008933CB /* main.m */; };
 		D89E0B501A0D7B32008933CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D89E0B4F1A0D7B32008933CB /* AppDelegate.m */; };
 /* End PBXBuildFile section */
@@ -18,10 +25,24 @@
 /* Begin PBXFileReference section */
 		7D2CE797068651BCF1AF2EE2 /* Pods-CarBuddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarBuddy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarBuddy/Pods-CarBuddy.debug.xcconfig"; sourceTree = "<group>"; };
 		C0ADD1C5BF399DFB487A425E /* Pods-CarBuddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarBuddy.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarBuddy/Pods-CarBuddy.release.xcconfig"; sourceTree = "<group>"; };
+		CF59B01738757EB8D4B05230 /* BeaconDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconDetails.h; sourceTree = "<group>"; };
+		CF59B0D5C29D768DFAC23DF3 /* BeaconDetailsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconDetailsTableViewCell.h; sourceTree = "<group>"; };
+		CF59B1ABC1CAF253851A719E /* SettingsViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewModel.h; sourceTree = "<group>"; };
 		CF59B3301BC574F098E91D38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CF59BBAB0453057B89824DCF /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		CF59BC2EE17779BDE931E5D2 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		CF59B38D23C2410AC7686250 /* BeaconDetailsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconDetailsTableViewController.m; sourceTree = "<group>"; };
+		CF59B63138FD31CDD96A8CAC /* NSString+StringUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringUtils.h"; sourceTree = "<group>"; };
+		CF59B7E2AE5A069D1BC5B72C /* SettingsViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewModel.m; sourceTree = "<group>"; };
+		CF59B84626AA47E3FCCD3D98 /* BeaconDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconDetails.m; sourceTree = "<group>"; };
+		CF59B899BED676081C60044D /* BeaconDetailsViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconDetailsViewModel.m; sourceTree = "<group>"; };
+		CF59B8A7CAA51414DE646AF4 /* BeaconDetailsViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconDetailsViewModel.h; sourceTree = "<group>"; };
+		CF59B8EF078830BDE4BBC19B /* BeaconDetailsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconDetailsTableViewCell.m; sourceTree = "<group>"; };
+		CF59BA1122BC12E2468FFDA1 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		CF59BACAB12A87D60D208022 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		CF59BB07B8E55484BD2D65A2 /* BeaconDetailsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconDetailsTableViewController.h; sourceTree = "<group>"; };
+		CF59BD34E3639B70CA569683 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		CF59BD4735866FE7F4E41B01 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CF59BD96B393275A03E99946 /* NSString+StringUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringUtils.m"; sourceTree = "<group>"; };
+		CF59BF0245CE298F868D2CA7 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		D076FE6B1D6C0BF8324451CD /* libPods-CarBuddy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarBuddy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D89E0B471A0D7B32008933CB /* CarBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D89E0B4B1A0D7B32008933CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -79,10 +100,70 @@
 		CF59B3FBBC803A95858C3EFE /* Views & Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				CF59BC2EE17779BDE931E5D2 /* MainViewController.m */,
-				CF59BBAB0453057B89824DCF /* MainViewController.h */,
+				CF59BF41D2A3820F73A8E0C9 /* Settings */,
+				CF59B6C4CDFA16BF95F7F500 /* Main */,
 			);
 			path = "Views & Controllers";
+			sourceTree = "<group>";
+		};
+		CF59B474D9772B2CF22F07A6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CF59B8A7CAA51414DE646AF4 /* BeaconDetailsViewModel.h */,
+				CF59B899BED676081C60044D /* BeaconDetailsViewModel.m */,
+				CF59B1ABC1CAF253851A719E /* SettingsViewModel.h */,
+				CF59B7E2AE5A069D1BC5B72C /* SettingsViewModel.m */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CF59B6C4CDFA16BF95F7F500 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CF59BF0245CE298F868D2CA7 /* MainViewController.m */,
+				CF59BACAB12A87D60D208022 /* MainViewController.h */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CF59B6E2E7B526E79061285A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CF59B63138FD31CDD96A8CAC /* NSString+StringUtils.h */,
+				CF59BD96B393275A03E99946 /* NSString+StringUtils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CF59B72354C5BAF6E071134A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CF59BBAB03DADFD11AB73BFD /* Models */,
+				CF59B474D9772B2CF22F07A6 /* ViewModels */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		CF59BBAB03DADFD11AB73BFD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CF59B01738757EB8D4B05230 /* BeaconDetails.h */,
+				CF59B84626AA47E3FCCD3D98 /* BeaconDetails.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CF59BF41D2A3820F73A8E0C9 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				CF59BA1122BC12E2468FFDA1 /* SettingsViewController.m */,
+				CF59BD34E3639B70CA569683 /* SettingsViewController.h */,
+				CF59B0D5C29D768DFAC23DF3 /* BeaconDetailsTableViewCell.h */,
+				CF59B8EF078830BDE4BBC19B /* BeaconDetailsTableViewCell.m */,
+				CF59BB07B8E55484BD2D65A2 /* BeaconDetailsTableViewController.h */,
+				CF59B38D23C2410AC7686250 /* BeaconDetailsTableViewController.m */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 		CF59BF8AC930A0588F9681E3 /* Storyboards & Xibs */ = {
@@ -119,6 +200,8 @@
 				D89E0B4A1A0D7B32008933CB /* Supporting Files */,
 				CF59B2FCD9AA73E2145F5D9D /* Resources */,
 				CF59B3A85FAC1FA738AC6D5C /* UI */,
+				CF59B72354C5BAF6E071134A /* Data */,
+				CF59B6E2E7B526E79061285A /* Utils */,
 			);
 			path = CarBuddy;
 			sourceTree = "<group>";
@@ -243,7 +326,14 @@
 			files = (
 				D89E0B501A0D7B32008933CB /* AppDelegate.m in Sources */,
 				D89E0B4D1A0D7B32008933CB /* main.m in Sources */,
-				CF59B145D6467B1947F02119 /* MainViewController.m in Sources */,
+				CF59BDEFFED90AE18E71EFD3 /* BeaconDetails.m in Sources */,
+				CF59BA5A2C0441504AA168DC /* BeaconDetailsViewModel.m in Sources */,
+				CF59BF583CB3F58951F3B69D /* SettingsViewModel.m in Sources */,
+				CF59BF5058FCFDCD201FCCC6 /* SettingsViewController.m in Sources */,
+				CF59B247EE0E811CB62E305A /* MainViewController.m in Sources */,
+				CF59BEF60116A880004C56C6 /* BeaconDetailsTableViewCell.m in Sources */,
+				CF59B2AFBD9EB0478337BAE5 /* NSString+StringUtils.m in Sources */,
+				CF59B5E45728829AB72230E5 /* BeaconDetailsTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

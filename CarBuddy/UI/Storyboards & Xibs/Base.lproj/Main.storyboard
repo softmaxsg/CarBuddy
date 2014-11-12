@@ -89,7 +89,7 @@
         <!--Settings-->
         <scene sceneID="Vqy-hT-bh8">
             <objects>
-                <tableViewController id="rae-A0-xHk" sceneMemberID="viewController">
+                <tableViewController id="rae-A0-xHk" customClass="SettingsViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="b7p-5k-KpT">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -97,7 +97,7 @@
                         <sections>
                             <tableViewSection headerTitle="Beacons" id="f1L-gJ-G1W">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="Uh9-3t-ibv" detailTextLabel="249-DP-qqW" imageView="MKF-QE-nlZ" style="IBUITableViewCellStyleValue1" id="u4z-4f-T5a">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="Uh9-3t-ibv" detailTextLabel="249-DP-qqW" imageView="MKF-QE-nlZ" style="IBUITableViewCellStyleValue1" id="u4z-4f-T5a" userLabel="Car Beacon Cell" customClass="BeaconDetailsTableViewCell">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="u4z-4f-T5a" id="rEu-ED-Fmy">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -108,7 +108,7 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="249-DP-qqW">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="right" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="249-DP-qqW">
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
@@ -123,7 +123,7 @@
                                             <segue destination="B7x-Qn-ItY" kind="show" id="r3r-fd-QZH"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="h5a-Gw-XpQ" detailTextLabel="mD5-LD-4Ry" imageView="wAt-Wf-Xa9" style="IBUITableViewCellStyleValue1" id="PtQ-hj-laz">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="h5a-Gw-XpQ" detailTextLabel="mD5-LD-4Ry" imageView="wAt-Wf-Xa9" style="IBUITableViewCellStyleValue1" id="PtQ-hj-laz" userLabel="Wallet Beacon Cell" customClass="BeaconDetailsTableViewCell">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="PtQ-hj-laz" id="mez-vT-Gcf">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -134,7 +134,7 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mD5-LD-4Ry">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="right" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mD5-LD-4Ry">
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
@@ -153,7 +153,7 @@
                             </tableViewSection>
                             <tableViewSection footerTitle="Turning this ON decreases monitoring accuracy in background mode" id="grk-RJ-Vov">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="44" id="8OV-3z-uP7">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="44" id="8OV-3z-uP7" userLabel="Energy Saving Mode Cell">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8OV-3z-uP7" id="CIf-Df-lJH">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -166,6 +166,9 @@
                                                 </label>
                                                 <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="O9n-rp-W2O">
                                                     <rect key="frame" x="530" y="6" width="52" height="31"/>
+                                                    <connections>
+                                                        <action selector="energySavingModeChanged" destination="rae-A0-xHk" eventType="valueChanged" id="1Wk-2x-ylW"/>
+                                                    </connections>
                                                 </switch>
                                             </subviews>
                                             <constraints>
@@ -194,6 +197,11 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="carBeaconCell" destination="u4z-4f-T5a" id="dGK-Cl-TMm"/>
+                        <outlet property="energySavingModeSwitch" destination="O9n-rp-W2O" id="WXB-4p-cmi"/>
+                        <outlet property="walletBeaconCell" destination="PtQ-hj-laz" id="ZHr-xZ-l6B"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="azC-Th-Sw0" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="drX-QX-gYk" userLabel="Exit" sceneMemberID="exit"/>
@@ -203,7 +211,7 @@
         <!--Beacon Details-->
         <scene sceneID="CK7-5Y-kWU">
             <objects>
-                <tableViewController id="B7x-Qn-ItY" sceneMemberID="viewController">
+                <tableViewController id="B7x-Qn-ItY" customClass="BeaconDetailsTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="PAB-sz-f6Q">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -211,7 +219,7 @@
                         <sections>
                             <tableViewSection id="vIY-oc-aQ9">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="44" id="aeM-2V-Byo">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="44" id="aeM-2V-Byo" userLabel="Name Cell">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aeM-2V-Byo" id="tlt-oY-qbM">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -225,13 +233,16 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Beacon Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Hfg-PJ-aK0">
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Beacon Name" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Hfg-PJ-aK0">
                                                     <rect key="frame" x="73" y="7" width="512" height="30"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="30" id="Xq9-WI-3xG"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
+                                                    <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                                                    <connections>
+                                                        <outlet property="delegate" destination="B7x-Qn-ItY" id="V8V-L8-dvF"/>
+                                                    </connections>
                                                 </textField>
                                             </subviews>
                                             <constraints>
@@ -244,7 +255,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="44" id="bjv-7M-Mzm">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="44" id="bjv-7M-Mzm" userLabel="UUID Cell">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bjv-7M-Mzm" id="1A1-Jv-G7P">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -258,13 +269,19 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Beacon Identifier" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EtZ-Ab-JnE">
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Beacon Identifier" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="EtZ-Ab-JnE">
                                                     <rect key="frame" x="73" y="7" width="512" height="30"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="30" id="Fhv-mZ-hdA"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" autocorrectionType="no" spellCheckingType="no" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="mask" value="----"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                    <connections>
+                                                        <outlet property="delegate" destination="B7x-Qn-ItY" id="fTn-ii-yIe"/>
+                                                    </connections>
                                                 </textField>
                                             </subviews>
                                             <constraints>
@@ -286,6 +303,10 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Beacon Details" id="gRT-7W-RbI"/>
+                    <connections>
+                        <outlet property="identifierTextField" destination="Hfg-PJ-aK0" id="qZw-pU-WTk"/>
+                        <outlet property="uuidTextField" destination="EtZ-Ab-JnE" id="5kl-5M-1dT"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UFk-cK-XxH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
