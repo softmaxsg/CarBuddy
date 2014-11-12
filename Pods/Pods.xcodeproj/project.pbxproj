@@ -7,498 +7,867 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		000BD9125200A232BE6E82BC /* EXTConcreteProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D78B9EC5D7211AF6FFE37B7 /* EXTConcreteProtocol.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
-		02E590A18FD410A3261581CA /* EXTNil.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BFF08271A599B7628CEE27 /* EXTNil.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
-		040C04E62786417BEB5662D2 /* Pods-CarBuddy-libextobjc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D33628CF1A0A1AFF0FFCB5FF /* Pods-CarBuddy-libextobjc-dummy.m */; };
-		08A81D448BBF7CA99F8EEA4F /* EXTSelectorChecking.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6E386E1FB4EF2EE84FAA7C /* EXTSelectorChecking.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
-		0F4F74DB6A9D22797B6E91CA /* extobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 08315439D55751624A59402D /* extobjc.h */; };
-		1092C978FE2FD187523EB1A3 /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E805A782C7858F8DAECF716 /* EXTScope.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
-		1B29C741611466891FE99A26 /* Pods-BeaconBroadcaster-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 751F89A462D6208C76B015DC /* Pods-BeaconBroadcaster-dummy.m */; };
-		20BBB24C8397A1155E8ADF2E /* EXTSelectorChecking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F93D20395B6C7EC1362FBD0 /* EXTSelectorChecking.h */; };
-		2E034ADD0CF8583730DA4DAA /* NSMethodSignature+EXT.h in Headers */ = {isa = PBXBuildFile; fileRef = 47C3BC0A1134FA6A4D20BB90 /* NSMethodSignature+EXT.h */; };
-		2FABE4D94076E2BCBB98A0C7 /* NSInvocation+EXT.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B4D7FCDB0F3716F27C5D0F2 /* NSInvocation+EXT.h */; };
-		304599ED37DD1DD2DC396DEF /* EXTSafeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9F7B4DE0B1C2B98084CFB0 /* EXTSafeCategory.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
-		32080EE7A1117D49D4FD1D1D /* NSMethodSignature+EXT.h in Headers */ = {isa = PBXBuildFile; fileRef = 47C3BC0A1134FA6A4D20BB90 /* NSMethodSignature+EXT.h */; };
-		3622E2AE975A3DF9BF7D61B4 /* EXTSelectorChecking.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6E386E1FB4EF2EE84FAA7C /* EXTSelectorChecking.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
-		3A4F0E9BEBBF409669A2539C /* NSInvocation+EXT.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5FB760DBC66A6A0309D9E4 /* NSInvocation+EXT.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
-		432BA9748331F961C95C8F38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA852E8E7E35948D365002D /* Foundation.framework */; };
-		489D528002DCA13654DEE92F /* NSInvocation+EXT.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5FB760DBC66A6A0309D9E4 /* NSInvocation+EXT.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
-		51CA512D4F037003736470C8 /* EXTADT.h in Headers */ = {isa = PBXBuildFile; fileRef = BC3655A58705140546BD737B /* EXTADT.h */; };
-		57DF5C86065954BE98194084 /* EXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 05191801304EAAA283938B6C /* EXTScope.h */; };
-		580DBA80814559583E252B7C /* NSInvocation+EXT.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B4D7FCDB0F3716F27C5D0F2 /* NSInvocation+EXT.h */; };
-		5A0DD6D0599E6C34BDDDD874 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA852E8E7E35948D365002D /* Foundation.framework */; };
-		5FE039501C1A4C7DC71B9E58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA852E8E7E35948D365002D /* Foundation.framework */; };
-		6CD88A919948B1D3878D9F55 /* EXTSynthesize.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E42CB334A384DAD6CCB1385 /* EXTSynthesize.h */; };
-		6F4EB7D64250B82DE5C64031 /* EXTConcreteProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D78B9EC5D7211AF6FFE37B7 /* EXTConcreteProtocol.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
-		78C782469B7522CADADAD6AD /* extobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 08315439D55751624A59402D /* extobjc.h */; };
-		7F2F1321BD218876718705C3 /* EXTSelectorChecking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F93D20395B6C7EC1362FBD0 /* EXTSelectorChecking.h */; };
-		80247CF33D08953C486DF908 /* EXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = F68EB3760D031F3A9988800E /* EXTKeyPathCoding.h */; };
-		82003A38A693E9024845CBD0 /* EXTADT.h in Headers */ = {isa = PBXBuildFile; fileRef = BC3655A58705140546BD737B /* EXTADT.h */; };
-		8A7496890D3B9E4C37FEB769 /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB67A1B318D24B060E53554 /* EXTRuntimeExtensions.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
-		8CD9BE309CF490FDAE76A40B /* EXTNil.h in Headers */ = {isa = PBXBuildFile; fileRef = C6DC514B3EAC8A7836FD8DBE /* EXTNil.h */; };
-		90F69C279678BBF46D9150B7 /* NSMethodSignature+EXT.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FD2AFA029F2D01D4015C5D /* NSMethodSignature+EXT.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
-		917D375984E6217C360222F9 /* EXTSafeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9F7B4DE0B1C2B98084CFB0 /* EXTSafeCategory.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
-		9BF74648BC2F46CB174A920D /* NSMethodSignature+EXT.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FD2AFA029F2D01D4015C5D /* NSMethodSignature+EXT.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
-		9F24173C1DF87D082B2E5793 /* Pods-BeaconBroadcaster-libextobjc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B42EA0C13C076414D4D3E407 /* Pods-BeaconBroadcaster-libextobjc-dummy.m */; };
-		B33B256C4FCD44A1F24DEF3C /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = F659A9A5479A6720F85CD5FC /* metamacros.h */; };
-		B5A49C518CF513DBAA8CCA27 /* EXTNil.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BFF08271A599B7628CEE27 /* EXTNil.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
-		BDBF5EE0E7E69AC32ED05907 /* EXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = F68EB3760D031F3A9988800E /* EXTKeyPathCoding.h */; };
-		BDE7339EDB7D35DEA128E817 /* EXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 05191801304EAAA283938B6C /* EXTScope.h */; };
-		BF17654E8E27CF046868183F /* EXTSynthesize.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E42CB334A384DAD6CCB1385 /* EXTSynthesize.h */; };
-		C074662B33DF2769AF115539 /* Pods-CarBuddy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D64890EF46BDD9CBB3901B /* Pods-CarBuddy-dummy.m */; };
-		C55A056F9A32DE72495BADCC /* EXTADT.m in Sources */ = {isa = PBXBuildFile; fileRef = DA671CE2CA31CE79C5607AA2 /* EXTADT.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
-		C8229364ACEB39091A8AC7BB /* EXTConcreteProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = E05F5127A1B4469C58D07D62 /* EXTConcreteProtocol.h */; };
-		D26EC4C9613204D71175EEB2 /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = F659A9A5479A6720F85CD5FC /* metamacros.h */; };
-		DB0B853F02BAEC01BBB73221 /* EXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E7E3D4A77DFD0AE22EA02086 /* EXTRuntimeExtensions.h */; };
-		E11C6E87E1ED40A035D52816 /* EXTADT.m in Sources */ = {isa = PBXBuildFile; fileRef = DA671CE2CA31CE79C5607AA2 /* EXTADT.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
-		E79D0FD52C4B79D6293A2539 /* EXTSafeCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = AC8C41C14B421B2A450F3926 /* EXTSafeCategory.h */; };
-		E98C1115046E517963357E58 /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E805A782C7858F8DAECF716 /* EXTScope.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
-		EA1607D52F43ED1830EA3EE2 /* EXTSafeCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = AC8C41C14B421B2A450F3926 /* EXTSafeCategory.h */; };
-		EBC0AB825D56093E7C09C01D /* EXTConcreteProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = E05F5127A1B4469C58D07D62 /* EXTConcreteProtocol.h */; };
-		ECBA741A65E07691A1FF283C /* EXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E7E3D4A77DFD0AE22EA02086 /* EXTRuntimeExtensions.h */; };
-		F10042C795D309288A686056 /* EXTNil.h in Headers */ = {isa = PBXBuildFile; fileRef = C6DC514B3EAC8A7836FD8DBE /* EXTNil.h */; };
-		FA9294AC45D3646E4000FCE3 /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB67A1B318D24B060E53554 /* EXTRuntimeExtensions.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
-		FAB9B005FA008AC463F4EA1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA852E8E7E35948D365002D /* Foundation.framework */; };
+		0175D405A02AAD2E1408E05F /* NSOrderedSet+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 200D9E1267C9A6DDB548E28B /* NSOrderedSet+BlocksKit.h */; };
+		030E2D71DD426C882E56DCDE /* NSObject+BKBlockExecution.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EFD9F640FC85E07B58DC1BF /* NSObject+BKBlockExecution.h */; };
+		0440FDA1D3307832CFF3FFBB /* NSObject+BKBlockObservation.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B457CA93FC8D6D64C1E0AC /* NSObject+BKBlockObservation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		062AD32DF9B602ACC258C56A /* EXTConcreteProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 90B4FA784269F7510E54C79A /* EXTConcreteProtocol.h */; };
+		08258608E74F6D9650014231 /* EXTSynthesize.h in Headers */ = {isa = PBXBuildFile; fileRef = 310951CC2D10961C2B401B35 /* EXTSynthesize.h */; };
+		093261EAC17A0867533D950A /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = E0511E27A1F1E1AF1C38BC4C /* EXTScope.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		0BD61649BF0BD87F8C3FB03A /* UIAlertView+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A9887C14E4430AFFAA2CB1 /* UIAlertView+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		0BEE3997D0181C26A6BE8DF6 /* NSObject+A2DynamicDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 987B028FDBF4226884ACC75B /* NSObject+A2DynamicDelegate.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		0D63035D2B1AD4E9E51983C0 /* NSSet+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 039CBE7A412675543D6122FC /* NSSet+BlocksKit.h */; };
+		107501D5443720A160285C94 /* FMTMaskedFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 23C1DD1445FB30EAD77DE90A /* FMTMaskedFormatter.h */; };
+		1088DD64A517A5167FADCC55 /* UIActionSheet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C34FA19EDD511BA13D1ED9F /* UIActionSheet+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		138ED1930BB54F9A3287F5FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A4930FA0B97E2A88BEF420 /* Foundation.framework */; };
+		15A643799B527AA1A34013DD /* UIPopoverController+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 492584E965C5E2648E1A6337 /* UIPopoverController+BlocksKit.h */; };
+		17A425B1C6278F1FF028108F /* NSObject+BKAssociatedObjects.h in Headers */ = {isa = PBXBuildFile; fileRef = 4814A66CE3E8FB577C375996 /* NSObject+BKAssociatedObjects.h */; };
+		1ACECA1C4ADDD865DCC568DB /* NSArray+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 39EABC739D1BC1A239A1011D /* NSArray+BlocksKit.h */; };
+		1C93A00FE1AC29CE687A1786 /* NSCache+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C71D9C38FFA81C4536646FD /* NSCache+BlocksKit.h */; };
+		1FD2882BBB3F8A5600886194 /* UIPopoverController+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FB772AD34BEA972C82C48 /* UIPopoverController+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		22E75791DF54AB8EA998C02D /* UIControl+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2F08928A41A5FBECC33E89 /* UIControl+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		288760A76F4EF96E67BA3ACB /* NSURLConnection+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3756D3CD64EAE86B4E48FF35 /* NSURLConnection+BlocksKit.h */; };
+		29A0419E306B1AFCFC0B8E9C /* UIControl+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5570A51C8E3B32B76CFF5568 /* UIControl+BlocksKit.h */; };
+		2B15F6BEA808E2A6C6204079 /* EXTNil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7739C12D6FD72A4B156372D6 /* EXTNil.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		2C44E530CAA9A74DBB824E90 /* UIBarButtonItem+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FDFD0A91BFC54398C22A0ACF /* UIBarButtonItem+BlocksKit.h */; };
+		2D8A67FFB576E1AF74E87D37 /* NSInvocation+EXT.h in Headers */ = {isa = PBXBuildFile; fileRef = 356DBAC5B32E8A9D98D65529 /* NSInvocation+EXT.h */; };
+		2E38DC1787B85C927254FE70 /* NSDictionary+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 417AA60490E611F4B00CB33D /* NSDictionary+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		30690E89406B7D3B1C1BDE89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A4930FA0B97E2A88BEF420 /* Foundation.framework */; };
+		3084BF8016A6D1384694C089 /* Pods-CarBuddy-BlocksKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F64462497A567DEC3BC9BB45 /* Pods-CarBuddy-BlocksKit-dummy.m */; };
+		327D21D1FC646C87214F9636 /* EXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 033C966733C47D858B61F0A1 /* EXTRuntimeExtensions.h */; };
+		33BC8C0E2BE97A47610E10AF /* UITextField+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A22F82147CB1AA6B01BEBB /* UITextField+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		371131CDE272080DB13A66CD /* EXTNil.h in Headers */ = {isa = PBXBuildFile; fileRef = F05F5596205AE2F0F4FEB3B9 /* EXTNil.h */; };
+		3888D81757424C3B782F9FE6 /* extobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 926209D06492702CFA6A508A /* extobjc.h */; };
+		3D67D8ABA7C70207CF0B4D42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A4930FA0B97E2A88BEF420 /* Foundation.framework */; };
+		4017CB08EBEBD499EE6DCEAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A4930FA0B97E2A88BEF420 /* Foundation.framework */; };
+		404CCBD1D5160EADC3316118 /* NSMethodSignature+EXT.h in Headers */ = {isa = PBXBuildFile; fileRef = AF7F2247B05B5AA00D2E3839 /* NSMethodSignature+EXT.h */; };
+		40A07122692F8697AE5F131D /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 91A8FF9ABA81864F19E7BBF0 /* metamacros.h */; };
+		40E54EAE2925BE320BDB4252 /* UIImagePickerController+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = EA013429708F96C39E9EC78C /* UIImagePickerController+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		4159CBE6B838D759661A5F8D /* FMTMaskedFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9306647F4FE2147CD63AF4C5 /* FMTMaskedFormatter.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		43E38EF037C0E3CA465CFE9D /* NSObject+BKBlockExecution.m in Sources */ = {isa = PBXBuildFile; fileRef = 13532C991A31AB3D709A825E /* NSObject+BKBlockExecution.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		45C0B1AF6484421B0C8D1640 /* EXTConcreteProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 90B4FA784269F7510E54C79A /* EXTConcreteProtocol.h */; };
+		479F77C209228A11B5B6915B /* EXTNil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7739C12D6FD72A4B156372D6 /* EXTNil.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		4AE15F1091648F0876CF6958 /* NSMutableIndexSet+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DAE46E9E2E3C52AAAAA0FB94 /* NSMutableIndexSet+BlocksKit.h */; };
+		4B2F6DFBF1DB27AA0DE8A634 /* Pods-CarBuddy-FruitMaskedTextfield-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B44EE07E321B31A3F00ADE /* Pods-CarBuddy-FruitMaskedTextfield-dummy.m */; };
+		4BEC7FB25703759E69634D4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A4930FA0B97E2A88BEF420 /* Foundation.framework */; };
+		4D95342D1C3D41928F44F847 /* NSInvocation+EXT.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B32F80156417C02CAD80A7 /* NSInvocation+EXT.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		4F7090F885351B414FAF11CA /* UIAlertView+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F48E800E10225A0DC19FBA8 /* UIAlertView+BlocksKit.h */; };
+		553B2398878FDE7FBD7E795C /* NSMethodSignature+EXT.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5EB640A07BF616D9D19E1B /* NSMethodSignature+EXT.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		55F7A42593E8FCBB994EBE56 /* UITextField+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 20789182F0B2DDB42A27E7B5 /* UITextField+BlocksKit.h */; };
+		58501BA5F101D017E81E9E77 /* NSObject+A2BlockDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C1BD3CC9D7B7A1D709D81 /* NSObject+A2BlockDelegate.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		58AA81198BA4537FB49C9406 /* A2DynamicDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B50D1616E36373BA9D0ACC /* A2DynamicDelegate.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		58CF375D56E802F9AEA87937 /* NSOrderedSet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 275E5602C3B8BDC464BAD34A /* NSOrderedSet+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		5A183D98C57A22EBCA9DCC75 /* EXTSelectorChecking.h in Headers */ = {isa = PBXBuildFile; fileRef = 230710192C1E350913FD2061 /* EXTSelectorChecking.h */; };
+		5AAE77E2000FED0BD595862A /* MFMessageComposeViewController+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AC27E637A9D9C6790DCA2F24 /* MFMessageComposeViewController+BlocksKit.h */; };
+		5EFBB96B141914754B2A2A5A /* MFMailComposeViewController+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CF9F79C40AB01AC3D7280FB5 /* MFMailComposeViewController+BlocksKit.h */; };
+		5FAD4AFCDD040A73C8F5A940 /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 33082FC328DD28FCCA6452A6 /* EXTRuntimeExtensions.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		63A9A7DB0D2AAD594E3B6BBE /* NSObject+BKBlockObservation.h in Headers */ = {isa = PBXBuildFile; fileRef = F2B0E2F3E8C1FFF9D5A48960 /* NSObject+BKBlockObservation.h */; };
+		65AFE38DC33837A242FE4159 /* EXTNil.h in Headers */ = {isa = PBXBuildFile; fileRef = F05F5596205AE2F0F4FEB3B9 /* EXTNil.h */; };
+		689534FE8A7DEC3DE8F7465D /* EXTSafeCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 33ED6C402261D2F86131B073 /* EXTSafeCategory.h */; };
+		68FEED49DE8655C70C5683FD /* UIGestureRecognizer+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 467864F8929B8121DFF0A266 /* UIGestureRecognizer+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		695F1124A3214EA18B1DDA8A /* NSURLConnection+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E34C72AAED9911EFFF6CC2F /* NSURLConnection+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6A92DC57B1B18FA39A040615 /* BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B43AFEBD86B22132BF87AB /* BlocksKit.h */; };
+		6D4E4D2B49720449B98888E5 /* NSMethodSignature+EXT.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5EB640A07BF616D9D19E1B /* NSMethodSignature+EXT.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		6FB301B82BD44A5093C0A914 /* EXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 0354A7106841CD885C36E8E3 /* EXTKeyPathCoding.h */; };
+		788E6B39704390936C0BAC11 /* NSMethodSignature+EXT.h in Headers */ = {isa = PBXBuildFile; fileRef = AF7F2247B05B5AA00D2E3839 /* NSMethodSignature+EXT.h */; };
+		7A06DD03A8C7F232C26D4B77 /* NSIndexSet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC0A755D240D0F8E5BB4BDD /* NSIndexSet+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		7A3976CBE4CD42C161BA51E0 /* EXTSafeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = D182E10BCD3ECD586B5A6925 /* EXTSafeCategory.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		7D35AC1780A21D7CFA1C569C /* NSMutableOrderedSet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F20FBC8CD9904C76B76AB8F6 /* NSMutableOrderedSet+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		8092CA41165BFB0A66A2119B /* Pods-CarBuddy-libextobjc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EA09B79D6734EEDECBB697 /* Pods-CarBuddy-libextobjc-dummy.m */; };
+		81A415661E0FE546C7070AE8 /* EXTSelectorChecking.m in Sources */ = {isa = PBXBuildFile; fileRef = 19350AEEDCFDC58FDCC039B2 /* EXTSelectorChecking.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		85CC70751ABBE941287CE1AF /* UIImagePickerController+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 220D04C5F2D9926FA7D5233B /* UIImagePickerController+BlocksKit.h */; };
+		86C1B2BD820C1BE279CCD96A /* extobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 926209D06492702CFA6A508A /* extobjc.h */; };
+		9029E86EB0B21B086744033D /* Pods-BeaconBroadcaster-libextobjc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BE202D299DF8CD63FB8678 /* Pods-BeaconBroadcaster-libextobjc-dummy.m */; };
+		969ABA1A103DF9A2457C6B87 /* EXTSelectorChecking.h in Headers */ = {isa = PBXBuildFile; fileRef = 230710192C1E350913FD2061 /* EXTSelectorChecking.h */; };
+		9757711FF394DF4625C860F8 /* EXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 13000822ED4B35EA1687F19D /* EXTScope.h */; };
+		9791CF74042AF9D86A7B9F0F /* Pods-BeaconBroadcaster-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8989A9210DCDEBCC50637A94 /* Pods-BeaconBroadcaster-dummy.m */; };
+		9AD6F6EBA3A8C0AF4F0953A1 /* A2BlockInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B435392254B96263B4125CD /* A2BlockInvocation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		9BA622F21914C7B2AFCC1666 /* NSCache+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B15F0A02526AF25315B6F31 /* NSCache+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		9C2D95311A9AD5698844FC72 /* EXTADT.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D99EDB3F95AF2837947BA4C /* EXTADT.h */; };
+		A286F8EB4DC615FA6B48571D /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 91A8FF9ABA81864F19E7BBF0 /* metamacros.h */; };
+		A43ACCE9DAA6EBC839A5758A /* NSMutableDictionary+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 02D81BABDF30956C6C7F3E73 /* NSMutableDictionary+BlocksKit.h */; };
+		A65357D079A6686D99135FEF /* EXTADT.m in Sources */ = {isa = PBXBuildFile; fileRef = D574E57CB9218344313D0A80 /* EXTADT.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		A8E80237886F90B95B56127D /* NSDictionary+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 57D1FEE57130E20C022C5B59 /* NSDictionary+BlocksKit.h */; };
+		A8F38A704C781F163ED6DF6B /* NSObject+A2DynamicDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 16CE3E69D47A2DDB9A3FE161 /* NSObject+A2DynamicDelegate.h */; };
+		A919B3B4522053F6226D5500 /* EXTSynthesize.h in Headers */ = {isa = PBXBuildFile; fileRef = 310951CC2D10961C2B401B35 /* EXTSynthesize.h */; };
+		A96D0EB4DA225A03ABFA6B1C /* NSMutableArray+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E91C633E70B4251ACB36926 /* NSMutableArray+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		AA42AC1C037351CA7A17307E /* NSMutableArray+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CFAFCECFA2B0487E5DEE5FED /* NSMutableArray+BlocksKit.h */; };
+		AB7C30C86F75858B11A55322 /* NSMutableDictionary+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E79084306A8D14A1CB84DD71 /* NSMutableDictionary+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		ADB9BD7F521B0F4F3ED5E3C0 /* NSTimer+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C21B9B060366E6035E670C /* NSTimer+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		AE73A16C796E43CB48C04F8C /* NSInvocation+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A0DD2ACAA11E7847BEA5C5 /* NSInvocation+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		B05DA869F7B16216CDC52C99 /* Pods-CarBuddy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F014EFC62094C2AA8006E533 /* Pods-CarBuddy-dummy.m */; };
+		B0A83131A98926B1EBAB87B3 /* NSMutableIndexSet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B68E043ACC027EEDCC4925 /* NSMutableIndexSet+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		B1A248684F0780B5767921BC /* EXTSafeCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 33ED6C402261D2F86131B073 /* EXTSafeCategory.h */; };
+		B45D0C560CA8A35385142271 /* NSMutableOrderedSet+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3752E102A0A5D4F72ED28D73 /* NSMutableOrderedSet+BlocksKit.h */; };
+		B46B475DBD5F5B5BA808A4B5 /* BlocksKit+MessageUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 15392729EDAC7DF737CE0BCB /* BlocksKit+MessageUI.h */; };
+		BFFD14DB0EC7739DD55D92E1 /* NSObject+BKAssociatedObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD106A532757E3E68CB168C /* NSObject+BKAssociatedObjects.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		C220A35BF8712E1D12BC86E7 /* UIActionSheet+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D5F805D95DC1A4BD6BF7CF0 /* UIActionSheet+BlocksKit.h */; };
+		C2BDB6192A7FE8F0547FC14B /* NSIndexSet+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E882E5F22C96BEE80AD88F7 /* NSIndexSet+BlocksKit.h */; };
+		C41969F9E1A3729340F0E825 /* NSMutableSet+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B688144397DB12B1CCF6B8AC /* NSMutableSet+BlocksKit.h */; };
+		C7662B2BB0E3F6CC66079D03 /* UIWebView+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A780A09C2B6C2106DB7CD3D /* UIWebView+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		C788FBFEF4936121FC202B65 /* EXTADT.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D99EDB3F95AF2837947BA4C /* EXTADT.h */; };
+		C91FEC93EACD8E776B962ED9 /* UIWebView+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4688F0B6E9118450BF7D9663 /* UIWebView+BlocksKit.h */; };
+		CB122BE01AC45A8D4AD154A7 /* MFMailComposeViewController+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D6434D815A746F34F5B14C44 /* MFMailComposeViewController+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		CC089100FE0F40404EB96A39 /* EXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 13000822ED4B35EA1687F19D /* EXTScope.h */; };
+		CCAF4E1419C0B27893BBE1CC /* EXTConcreteProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = A81BA33C5856988EECE41746 /* EXTConcreteProtocol.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		CD0F1FC5CC31465C454F4F9F /* UIGestureRecognizer+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 02F437F03A5A90062E1168AF /* UIGestureRecognizer+BlocksKit.h */; };
+		CDD89D50824E72B30C2E188E /* UITextField+Mask.h in Headers */ = {isa = PBXBuildFile; fileRef = 137A2C69D54EAF08A53D786D /* UITextField+Mask.h */; };
+		CF04F755149E97F3AACAE3E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A4930FA0B97E2A88BEF420 /* Foundation.framework */; };
+		CF4BAB416727211676462CA9 /* UITextField+Mask.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F4EF7E0FA43A9D05E20B94 /* UITextField+Mask.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		CFEC11AB63C402802EC111E7 /* NSArray+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DB48DEF9D31B4264BFE3F361 /* NSArray+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		D08D5D5F9A254985F884C000 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C53C5BC1E87A2E33DA43A4D0 /* MessageUI.framework */; };
+		D0BD23D9E260816EEC7561E0 /* EXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 0354A7106841CD885C36E8E3 /* EXTKeyPathCoding.h */; };
+		D168FCEEB6738784902FB062 /* BlocksKit+UIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3108EFC7BC38C7E024E3AC64 /* BlocksKit+UIKit.h */; };
+		D3592B5DC4D55805348CA720 /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = E0511E27A1F1E1AF1C38BC4C /* EXTScope.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		D4B3B30297FF1AF1B1D15729 /* NSSet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD529FBAB83C8A36A72AB4F /* NSSet+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		D4E056A93AD5A4F68E5CF000 /* EXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 033C966733C47D858B61F0A1 /* EXTRuntimeExtensions.h */; };
+		D6175AAA3522F8E17E35B48E /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 33082FC328DD28FCCA6452A6 /* EXTRuntimeExtensions.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		D65DB8F8DB9C82668E282EEC /* EXTConcreteProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = A81BA33C5856988EECE41746 /* EXTConcreteProtocol.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		D6E8A0BFAB4013A01A0C6772 /* A2DynamicDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = EE5539CCE362A206EC463F26 /* A2DynamicDelegate.h */; };
+		D949BF49056DB46175612C7F /* EXTSelectorChecking.m in Sources */ = {isa = PBXBuildFile; fileRef = 19350AEEDCFDC58FDCC039B2 /* EXTSelectorChecking.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		DBD356969139F9E9A8BFA933 /* NSInvocation+EXT.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B32F80156417C02CAD80A7 /* NSInvocation+EXT.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		DE20034F8637272AC60EE78D /* NSMutableSet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 594EAE147873FF5505DB4804 /* NSMutableSet+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		DFCD42EA4B4F95B3A210B3B6 /* BKMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = B8B03781BDB56F79D10B0793 /* BKMacros.h */; };
+		E6FF5BE68916A62DB297EEB2 /* NSObject+A2BlockDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C921C039EA6BB8EF3C63019 /* NSObject+A2BlockDelegate.h */; };
+		E724F694849636FC4C53CAE9 /* NSInvocation+EXT.h in Headers */ = {isa = PBXBuildFile; fileRef = 356DBAC5B32E8A9D98D65529 /* NSInvocation+EXT.h */; };
+		EA975D0A113DFA498D59FC03 /* EXTADT.m in Sources */ = {isa = PBXBuildFile; fileRef = D574E57CB9218344313D0A80 /* EXTADT.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		EAB18BBCB910B2585862CC31 /* A2BlockInvocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3473D308E76D9F4C1280D4AB /* A2BlockInvocation.h */; };
+		EBF1B004ACD8A9A878338237 /* MFMessageComposeViewController+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 20506EB19B6261D429824E88 /* MFMessageComposeViewController+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		EF7746CC4D3E06C009FB731C /* UIBarButtonItem+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2318DD8F60A325E732E146 /* UIBarButtonItem+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		F0690FBD7C74B6CCE25B1CB3 /* NSInvocation+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FE0217D94E7B1D486CBF5F27 /* NSInvocation+BlocksKit.h */; };
+		F0B106AB38BF39F9BDBAD52B /* UIView+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C20A8652BFB99EFF6FCCD0 /* UIView+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		F14B065D81B2104FE20D6BFF /* UIView+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 813FCB651FE0EA7CFCFF6FE9 /* UIView+BlocksKit.h */; };
+		FCF686D4EC03A2C8EAE3271B /* NSTimer+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 25FB8BEFA107B7B86C3AB061 /* NSTimer+BlocksKit.h */; };
+		FE37CF994B6D7A2176EAAFF1 /* EXTSafeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = D182E10BCD3ECD586B5A6925 /* EXTSafeCategory.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		46F77C015663177293AB6418 /* PBXContainerItemProxy */ = {
+		5AD8589D19B37BB4A69597F1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F81C60A47EAAD6FF7DCDFD04 /* Project object */;
+			containerPortal = F37BD5E70FFFEF32681B1816 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6406F7A492BBF2142C777ABF;
+			remoteGlobalIDString = 7D197C4B27B4D76238D47DBA;
+			remoteInfo = "Pods-CarBuddy-BlocksKit";
+		};
+		831DD22AD16A4FE6654D1628 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F37BD5E70FFFEF32681B1816 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E158C64EB568F96E17BE192;
+			remoteInfo = "Pods-BeaconBroadcaster-libextobjc";
+		};
+		AF11D3683B0BD90D551CC827 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F37BD5E70FFFEF32681B1816 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B34D9261D7D5FEDC5176124;
 			remoteInfo = "Pods-CarBuddy-libextobjc";
 		};
-		489372FF2E4444E495C06D61 /* PBXContainerItemProxy */ = {
+		CE8D11FAB9B75E3F33FC530C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F81C60A47EAAD6FF7DCDFD04 /* Project object */;
+			containerPortal = F37BD5E70FFFEF32681B1816 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E22FE5E50B199039F6B740D6;
-			remoteInfo = "Pods-BeaconBroadcaster-libextobjc";
+			remoteGlobalIDString = 7E43E16D38E70E2435BACF4D;
+			remoteInfo = "Pods-CarBuddy-FruitMaskedTextfield";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05191801304EAAA283938B6C /* EXTScope.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTScope.h; path = extobjc/EXTScope.h; sourceTree = "<group>"; };
-		08315439D55751624A59402D /* extobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = extobjc.h; path = extobjc/extobjc.h; sourceTree = "<group>"; };
-		0ACAC75BBDE9FD7F5F53D38C /* Pods-CarBuddy-libextobjc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarBuddy-libextobjc.xcconfig"; path = "../Pods-CarBuddy-libextobjc/Pods-CarBuddy-libextobjc.xcconfig"; sourceTree = "<group>"; };
-		0D6E386E1FB4EF2EE84FAA7C /* EXTSelectorChecking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTSelectorChecking.m; path = extobjc/EXTSelectorChecking.m; sourceTree = "<group>"; };
-		0F93D20395B6C7EC1362FBD0 /* EXTSelectorChecking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTSelectorChecking.h; path = extobjc/EXTSelectorChecking.h; sourceTree = "<group>"; };
-		186E5B4F983F2910C2142991 /* Pods-CarBuddy-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CarBuddy-resources.sh"; sourceTree = "<group>"; };
-		1CB67A1B318D24B060E53554 /* EXTRuntimeExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTRuntimeExtensions.m; path = extobjc/EXTRuntimeExtensions.m; sourceTree = "<group>"; };
-		1D78B9EC5D7211AF6FFE37B7 /* EXTConcreteProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTConcreteProtocol.m; path = extobjc/EXTConcreteProtocol.m; sourceTree = "<group>"; };
-		1F756DD80B917A18CC0C7E62 /* libPods-BeaconBroadcaster-libextobjc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BeaconBroadcaster-libextobjc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		217595F2591B2FAED79F3196 /* Pods-CarBuddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarBuddy.debug.xcconfig"; sourceTree = "<group>"; };
-		2B4D7FCDB0F3716F27C5D0F2 /* NSInvocation+EXT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+EXT.h"; path = "extobjc/NSInvocation+EXT.h"; sourceTree = "<group>"; };
-		47C3BC0A1134FA6A4D20BB90 /* NSMethodSignature+EXT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMethodSignature+EXT.h"; path = "extobjc/NSMethodSignature+EXT.h"; sourceTree = "<group>"; };
-		49817C30AAB1AD2BB95216B3 /* Pods-BeaconBroadcaster-libextobjc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeaconBroadcaster-libextobjc.xcconfig"; sourceTree = "<group>"; };
-		54D64890EF46BDD9CBB3901B /* Pods-CarBuddy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CarBuddy-dummy.m"; sourceTree = "<group>"; };
-		6E42CB334A384DAD6CCB1385 /* EXTSynthesize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTSynthesize.h; path = extobjc/EXTSynthesize.h; sourceTree = "<group>"; };
-		6E805A782C7858F8DAECF716 /* EXTScope.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTScope.m; path = extobjc/EXTScope.m; sourceTree = "<group>"; };
-		70152F99DF55FB0FAE09C420 /* Pods-CarBuddy-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CarBuddy-acknowledgements.markdown"; sourceTree = "<group>"; };
-		751F89A462D6208C76B015DC /* Pods-BeaconBroadcaster-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BeaconBroadcaster-dummy.m"; sourceTree = "<group>"; };
-		882AAEA8EDBE8A6290377D00 /* Pods-BeaconBroadcaster-libextobjc-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeaconBroadcaster-libextobjc-Private.xcconfig"; sourceTree = "<group>"; };
-		8D9C97E5315655137876D015 /* Pods-CarBuddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarBuddy.release.xcconfig"; sourceTree = "<group>"; };
-		96BE0A73282B591BF9CF3D8A /* Pods-BeaconBroadcaster-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BeaconBroadcaster-environment.h"; sourceTree = "<group>"; };
-		975164F72D81ED20742D4533 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A000301E3C07851FFD7DAE37 /* Pods-BeaconBroadcaster-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BeaconBroadcaster-resources.sh"; sourceTree = "<group>"; };
-		A0F5F2C84275719630AEA1A0 /* libPods-CarBuddy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarBuddy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABA0D7BC3C46055486FCC25B /* Pods-BeaconBroadcaster-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeaconBroadcaster-acknowledgements.plist"; sourceTree = "<group>"; };
-		AC8C41C14B421B2A450F3926 /* EXTSafeCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTSafeCategory.h; path = extobjc/EXTSafeCategory.h; sourceTree = "<group>"; };
-		AEA852E8E7E35948D365002D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		B381B54E17A5CD943F2CE71C /* Pods-CarBuddy-libextobjc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-CarBuddy-libextobjc-prefix.pch"; path = "../Pods-CarBuddy-libextobjc/Pods-CarBuddy-libextobjc-prefix.pch"; sourceTree = "<group>"; };
-		B42EA0C13C076414D4D3E407 /* Pods-BeaconBroadcaster-libextobjc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BeaconBroadcaster-libextobjc-dummy.m"; sourceTree = "<group>"; };
-		BB7936CCB7BFAE7915304839 /* libPods-CarBuddy-libextobjc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarBuddy-libextobjc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBCB7544E8B873A7EA4AF01D /* Pods-CarBuddy-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CarBuddy-environment.h"; sourceTree = "<group>"; };
-		BC3655A58705140546BD737B /* EXTADT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTADT.h; path = extobjc/EXTADT.h; sourceTree = "<group>"; };
-		C4BFF08271A599B7628CEE27 /* EXTNil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTNil.m; path = extobjc/EXTNil.m; sourceTree = "<group>"; };
-		C6DC514B3EAC8A7836FD8DBE /* EXTNil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTNil.h; path = extobjc/EXTNil.h; sourceTree = "<group>"; };
-		C7CC15F5A68299904A3F8E2A /* Pods-BeaconBroadcaster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeaconBroadcaster.debug.xcconfig"; sourceTree = "<group>"; };
-		C9FD2AFA029F2D01D4015C5D /* NSMethodSignature+EXT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMethodSignature+EXT.m"; path = "extobjc/NSMethodSignature+EXT.m"; sourceTree = "<group>"; };
-		CA2688C694D027F707CE76B0 /* libPods-BeaconBroadcaster.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BeaconBroadcaster.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA9F7B4DE0B1C2B98084CFB0 /* EXTSafeCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTSafeCategory.m; path = extobjc/EXTSafeCategory.m; sourceTree = "<group>"; };
-		CB07524927B2D6B7950D4E42 /* Pods-CarBuddy-libextobjc-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarBuddy-libextobjc-Private.xcconfig"; path = "../Pods-CarBuddy-libextobjc/Pods-CarBuddy-libextobjc-Private.xcconfig"; sourceTree = "<group>"; };
-		D33628CF1A0A1AFF0FFCB5FF /* Pods-CarBuddy-libextobjc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-CarBuddy-libextobjc-dummy.m"; path = "../Pods-CarBuddy-libextobjc/Pods-CarBuddy-libextobjc-dummy.m"; sourceTree = "<group>"; };
-		DA671CE2CA31CE79C5607AA2 /* EXTADT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTADT.m; path = extobjc/EXTADT.m; sourceTree = "<group>"; };
-		E05F5127A1B4469C58D07D62 /* EXTConcreteProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTConcreteProtocol.h; path = extobjc/EXTConcreteProtocol.h; sourceTree = "<group>"; };
-		E08C0CB56B4AC63EC65C4C12 /* Pods-BeaconBroadcaster-libextobjc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BeaconBroadcaster-libextobjc-prefix.pch"; sourceTree = "<group>"; };
-		E7E3D4A77DFD0AE22EA02086 /* EXTRuntimeExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTRuntimeExtensions.h; path = extobjc/EXTRuntimeExtensions.h; sourceTree = "<group>"; };
-		F048B19DEF5DEC38DE7D8BCD /* Pods-BeaconBroadcaster-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BeaconBroadcaster-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F34E2779B4C711962BA92D61 /* Pods-BeaconBroadcaster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeaconBroadcaster.release.xcconfig"; sourceTree = "<group>"; };
-		F587C967B39FB788FB4D4518 /* Pods-CarBuddy-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CarBuddy-acknowledgements.plist"; sourceTree = "<group>"; };
-		F659A9A5479A6720F85CD5FC /* metamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = metamacros.h; path = extobjc/metamacros.h; sourceTree = "<group>"; };
-		F68EB3760D031F3A9988800E /* EXTKeyPathCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTKeyPathCoding.h; path = extobjc/EXTKeyPathCoding.h; sourceTree = "<group>"; };
-		FA5FB760DBC66A6A0309D9E4 /* NSInvocation+EXT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation+EXT.m"; path = "extobjc/NSInvocation+EXT.m"; sourceTree = "<group>"; };
+		02D81BABDF30956C6C7F3E73 /* NSMutableDictionary+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+BlocksKit.h"; path = "BlocksKit/Core/NSMutableDictionary+BlocksKit.h"; sourceTree = "<group>"; };
+		02F437F03A5A90062E1168AF /* UIGestureRecognizer+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIGestureRecognizer+BlocksKit.h"; path = "BlocksKit/UIKit/UIGestureRecognizer+BlocksKit.h"; sourceTree = "<group>"; };
+		033C966733C47D858B61F0A1 /* EXTRuntimeExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTRuntimeExtensions.h; path = extobjc/EXTRuntimeExtensions.h; sourceTree = "<group>"; };
+		0354A7106841CD885C36E8E3 /* EXTKeyPathCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTKeyPathCoding.h; path = extobjc/EXTKeyPathCoding.h; sourceTree = "<group>"; };
+		039CBE7A412675543D6122FC /* NSSet+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSSet+BlocksKit.h"; path = "BlocksKit/Core/NSSet+BlocksKit.h"; sourceTree = "<group>"; };
+		03A0DD2ACAA11E7847BEA5C5 /* NSInvocation+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation+BlocksKit.m"; path = "BlocksKit/Core/NSInvocation+BlocksKit.m"; sourceTree = "<group>"; };
+		0555FEB0E21E0A842FA1F229 /* Pods-CarBuddy-libextobjc-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarBuddy-libextobjc-Private.xcconfig"; path = "../Pods-CarBuddy-libextobjc/Pods-CarBuddy-libextobjc-Private.xcconfig"; sourceTree = "<group>"; };
+		061757DBD75913772ED28374 /* Pods-CarBuddy-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CarBuddy-acknowledgements.markdown"; sourceTree = "<group>"; };
+		08A22F82147CB1AA6B01BEBB /* UITextField+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+BlocksKit.m"; path = "BlocksKit/UIKit/UITextField+BlocksKit.m"; sourceTree = "<group>"; };
+		0E91C633E70B4251ACB36926 /* NSMutableArray+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+BlocksKit.m"; path = "BlocksKit/Core/NSMutableArray+BlocksKit.m"; sourceTree = "<group>"; };
+		0EC0A755D240D0F8E5BB4BDD /* NSIndexSet+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSIndexSet+BlocksKit.m"; path = "BlocksKit/Core/NSIndexSet+BlocksKit.m"; sourceTree = "<group>"; };
+		12F4EF7E0FA43A9D05E20B94 /* UITextField+Mask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+Mask.m"; path = "Classes/ios/UITextField+Mask.m"; sourceTree = "<group>"; };
+		13000822ED4B35EA1687F19D /* EXTScope.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTScope.h; path = extobjc/EXTScope.h; sourceTree = "<group>"; };
+		13532C991A31AB3D709A825E /* NSObject+BKBlockExecution.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+BKBlockExecution.m"; path = "BlocksKit/Core/NSObject+BKBlockExecution.m"; sourceTree = "<group>"; };
+		137A2C69D54EAF08A53D786D /* UITextField+Mask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+Mask.h"; path = "Classes/ios/UITextField+Mask.h"; sourceTree = "<group>"; };
+		15392729EDAC7DF737CE0BCB /* BlocksKit+MessageUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BlocksKit+MessageUI.h"; path = "BlocksKit/BlocksKit+MessageUI.h"; sourceTree = "<group>"; };
+		16CE3E69D47A2DDB9A3FE161 /* NSObject+A2DynamicDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+A2DynamicDelegate.h"; path = "BlocksKit/DynamicDelegate/NSObject+A2DynamicDelegate.h"; sourceTree = "<group>"; };
+		177B767F336C363CABC4529C /* Pods-BeaconBroadcaster-libextobjc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BeaconBroadcaster-libextobjc-prefix.pch"; sourceTree = "<group>"; };
+		19350AEEDCFDC58FDCC039B2 /* EXTSelectorChecking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTSelectorChecking.m; path = extobjc/EXTSelectorChecking.m; sourceTree = "<group>"; };
+		19EA09B79D6734EEDECBB697 /* Pods-CarBuddy-libextobjc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-CarBuddy-libextobjc-dummy.m"; path = "../Pods-CarBuddy-libextobjc/Pods-CarBuddy-libextobjc-dummy.m"; sourceTree = "<group>"; };
+		1B435392254B96263B4125CD /* A2BlockInvocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A2BlockInvocation.m; path = BlocksKit/DynamicDelegate/A2BlockInvocation.m; sourceTree = "<group>"; };
+		1E13C748C08D099A022D47F4 /* libPods-BeaconBroadcaster-libextobjc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BeaconBroadcaster-libextobjc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F48E800E10225A0DC19FBA8 /* UIAlertView+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+BlocksKit.h"; path = "BlocksKit/UIKit/UIAlertView+BlocksKit.h"; sourceTree = "<group>"; };
+		200D9E1267C9A6DDB548E28B /* NSOrderedSet+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSOrderedSet+BlocksKit.h"; path = "BlocksKit/Core/NSOrderedSet+BlocksKit.h"; sourceTree = "<group>"; };
+		20506EB19B6261D429824E88 /* MFMessageComposeViewController+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MFMessageComposeViewController+BlocksKit.m"; path = "BlocksKit/MessageUI/MFMessageComposeViewController+BlocksKit.m"; sourceTree = "<group>"; };
+		20789182F0B2DDB42A27E7B5 /* UITextField+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+BlocksKit.h"; path = "BlocksKit/UIKit/UITextField+BlocksKit.h"; sourceTree = "<group>"; };
+		208A4D3AFDE3E656F35C185F /* libPods-CarBuddy-libextobjc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarBuddy-libextobjc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21B50D1616E36373BA9D0ACC /* A2DynamicDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A2DynamicDelegate.m; path = BlocksKit/DynamicDelegate/A2DynamicDelegate.m; sourceTree = "<group>"; };
+		220D04C5F2D9926FA7D5233B /* UIImagePickerController+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImagePickerController+BlocksKit.h"; path = "BlocksKit/UIKit/UIImagePickerController+BlocksKit.h"; sourceTree = "<group>"; };
+		230710192C1E350913FD2061 /* EXTSelectorChecking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTSelectorChecking.h; path = extobjc/EXTSelectorChecking.h; sourceTree = "<group>"; };
+		23C1DD1445FB30EAD77DE90A /* FMTMaskedFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMTMaskedFormatter.h; path = Classes/ios/FMTMaskedFormatter.h; sourceTree = "<group>"; };
+		25FB8BEFA107B7B86C3AB061 /* NSTimer+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTimer+BlocksKit.h"; path = "BlocksKit/Core/NSTimer+BlocksKit.h"; sourceTree = "<group>"; };
+		275E5602C3B8BDC464BAD34A /* NSOrderedSet+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSOrderedSet+BlocksKit.m"; path = "BlocksKit/Core/NSOrderedSet+BlocksKit.m"; sourceTree = "<group>"; };
+		2D87CC739D7150AE9AFF1AD1 /* Pods-BeaconBroadcaster-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeaconBroadcaster-acknowledgements.plist"; sourceTree = "<group>"; };
+		2DAAB2C1E3AF84CF8F983E28 /* Pods-CarBuddy-BlocksKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarBuddy-BlocksKit.xcconfig"; sourceTree = "<group>"; };
+		2E25CEFE018C66E8A4BC203D /* Pods-CarBuddy-FruitMaskedTextfield-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CarBuddy-FruitMaskedTextfield-prefix.pch"; sourceTree = "<group>"; };
+		3108EFC7BC38C7E024E3AC64 /* BlocksKit+UIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BlocksKit+UIKit.h"; path = "BlocksKit/BlocksKit+UIKit.h"; sourceTree = "<group>"; };
+		310951CC2D10961C2B401B35 /* EXTSynthesize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTSynthesize.h; path = extobjc/EXTSynthesize.h; sourceTree = "<group>"; };
+		31A9B43E69E7771651FCDEB5 /* Pods-CarBuddy-libextobjc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarBuddy-libextobjc.xcconfig"; path = "../Pods-CarBuddy-libextobjc/Pods-CarBuddy-libextobjc.xcconfig"; sourceTree = "<group>"; };
+		33082FC328DD28FCCA6452A6 /* EXTRuntimeExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTRuntimeExtensions.m; path = extobjc/EXTRuntimeExtensions.m; sourceTree = "<group>"; };
+		33ED6C402261D2F86131B073 /* EXTSafeCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTSafeCategory.h; path = extobjc/EXTSafeCategory.h; sourceTree = "<group>"; };
+		3473D308E76D9F4C1280D4AB /* A2BlockInvocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A2BlockInvocation.h; path = BlocksKit/DynamicDelegate/A2BlockInvocation.h; sourceTree = "<group>"; };
+		356DBAC5B32E8A9D98D65529 /* NSInvocation+EXT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+EXT.h"; path = "extobjc/NSInvocation+EXT.h"; sourceTree = "<group>"; };
+		364DEDD0A30811FB42A7640E /* Pods-BeaconBroadcaster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeaconBroadcaster.release.xcconfig"; sourceTree = "<group>"; };
+		3752E102A0A5D4F72ED28D73 /* NSMutableOrderedSet+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableOrderedSet+BlocksKit.h"; path = "BlocksKit/Core/NSMutableOrderedSet+BlocksKit.h"; sourceTree = "<group>"; };
+		3756D3CD64EAE86B4E48FF35 /* NSURLConnection+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLConnection+BlocksKit.h"; path = "BlocksKit/DynamicDelegate/Foundation/NSURLConnection+BlocksKit.h"; sourceTree = "<group>"; };
+		39EABC739D1BC1A239A1011D /* NSArray+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+BlocksKit.h"; path = "BlocksKit/Core/NSArray+BlocksKit.h"; sourceTree = "<group>"; };
+		3D5F805D95DC1A4BD6BF7CF0 /* UIActionSheet+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActionSheet+BlocksKit.h"; path = "BlocksKit/UIKit/UIActionSheet+BlocksKit.h"; sourceTree = "<group>"; };
+		3F3FB772AD34BEA972C82C48 /* UIPopoverController+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIPopoverController+BlocksKit.m"; path = "BlocksKit/UIKit/UIPopoverController+BlocksKit.m"; sourceTree = "<group>"; };
+		417AA60490E611F4B00CB33D /* NSDictionary+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+BlocksKit.m"; path = "BlocksKit/Core/NSDictionary+BlocksKit.m"; sourceTree = "<group>"; };
+		432862E6BCA474758E633697 /* Pods-BeaconBroadcaster-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BeaconBroadcaster-environment.h"; sourceTree = "<group>"; };
+		467864F8929B8121DFF0A266 /* UIGestureRecognizer+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIGestureRecognizer+BlocksKit.m"; path = "BlocksKit/UIKit/UIGestureRecognizer+BlocksKit.m"; sourceTree = "<group>"; };
+		4688F0B6E9118450BF7D9663 /* UIWebView+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+BlocksKit.h"; path = "BlocksKit/UIKit/UIWebView+BlocksKit.h"; sourceTree = "<group>"; };
+		46C174A33312C3CB45807F2A /* Pods-BeaconBroadcaster-libextobjc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeaconBroadcaster-libextobjc.xcconfig"; sourceTree = "<group>"; };
+		4814A66CE3E8FB577C375996 /* NSObject+BKAssociatedObjects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+BKAssociatedObjects.h"; path = "BlocksKit/Core/NSObject+BKAssociatedObjects.h"; sourceTree = "<group>"; };
+		48B7A4BC45F084EC9A62CEEA /* Pods-CarBuddy-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CarBuddy-environment.h"; sourceTree = "<group>"; };
+		492584E965C5E2648E1A6337 /* UIPopoverController+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIPopoverController+BlocksKit.h"; path = "BlocksKit/UIKit/UIPopoverController+BlocksKit.h"; sourceTree = "<group>"; };
+		4A780A09C2B6C2106DB7CD3D /* UIWebView+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+BlocksKit.m"; path = "BlocksKit/UIKit/UIWebView+BlocksKit.m"; sourceTree = "<group>"; };
+		4AB0837211341582B973B525 /* Pods-CarBuddy-FruitMaskedTextfield-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarBuddy-FruitMaskedTextfield-Private.xcconfig"; sourceTree = "<group>"; };
+		4C34FA19EDD511BA13D1ED9F /* UIActionSheet+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActionSheet+BlocksKit.m"; path = "BlocksKit/UIKit/UIActionSheet+BlocksKit.m"; sourceTree = "<group>"; };
+		4C71D9C38FFA81C4536646FD /* NSCache+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSCache+BlocksKit.h"; path = "BlocksKit/DynamicDelegate/Foundation/NSCache+BlocksKit.h"; sourceTree = "<group>"; };
+		4C921C039EA6BB8EF3C63019 /* NSObject+A2BlockDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+A2BlockDelegate.h"; path = "BlocksKit/DynamicDelegate/NSObject+A2BlockDelegate.h"; sourceTree = "<group>"; };
+		535970350A96A46B22B97374 /* Pods-CarBuddy-FruitMaskedTextfield.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarBuddy-FruitMaskedTextfield.xcconfig"; sourceTree = "<group>"; };
+		5570A51C8E3B32B76CFF5568 /* UIControl+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+BlocksKit.h"; path = "BlocksKit/UIKit/UIControl+BlocksKit.h"; sourceTree = "<group>"; };
+		55E4276E27557E7853F56C45 /* libPods-CarBuddy-BlocksKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarBuddy-BlocksKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57D1FEE57130E20C022C5B59 /* NSDictionary+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+BlocksKit.h"; path = "BlocksKit/Core/NSDictionary+BlocksKit.h"; sourceTree = "<group>"; };
+		594EAE147873FF5505DB4804 /* NSMutableSet+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableSet+BlocksKit.m"; path = "BlocksKit/Core/NSMutableSet+BlocksKit.m"; sourceTree = "<group>"; };
+		5B668AD1F1AA22BBF0027156 /* libPods-BeaconBroadcaster.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BeaconBroadcaster.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A9887C14E4430AFFAA2CB1 /* UIAlertView+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+BlocksKit.m"; path = "BlocksKit/UIKit/UIAlertView+BlocksKit.m"; sourceTree = "<group>"; };
+		68C20A8652BFB99EFF6FCCD0 /* UIView+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+BlocksKit.m"; path = "BlocksKit/UIKit/UIView+BlocksKit.m"; sourceTree = "<group>"; };
+		6D99EDB3F95AF2837947BA4C /* EXTADT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTADT.h; path = extobjc/EXTADT.h; sourceTree = "<group>"; };
+		6DD106A532757E3E68CB168C /* NSObject+BKAssociatedObjects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+BKAssociatedObjects.m"; path = "BlocksKit/Core/NSObject+BKAssociatedObjects.m"; sourceTree = "<group>"; };
+		6E8C3D33F075AEFD4453359A /* Pods-BeaconBroadcaster-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BeaconBroadcaster-resources.sh"; sourceTree = "<group>"; };
+		6F5EB640A07BF616D9D19E1B /* NSMethodSignature+EXT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMethodSignature+EXT.m"; path = "extobjc/NSMethodSignature+EXT.m"; sourceTree = "<group>"; };
+		6F9C1BD3CC9D7B7A1D709D81 /* NSObject+A2BlockDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+A2BlockDelegate.m"; path = "BlocksKit/DynamicDelegate/NSObject+A2BlockDelegate.m"; sourceTree = "<group>"; };
+		6FD529FBAB83C8A36A72AB4F /* NSSet+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSSet+BlocksKit.m"; path = "BlocksKit/Core/NSSet+BlocksKit.m"; sourceTree = "<group>"; };
+		73B32F80156417C02CAD80A7 /* NSInvocation+EXT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation+EXT.m"; path = "extobjc/NSInvocation+EXT.m"; sourceTree = "<group>"; };
+		768687F26EC4AD3092F68165 /* Pods-CarBuddy-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CarBuddy-acknowledgements.plist"; sourceTree = "<group>"; };
+		76B44EE07E321B31A3F00ADE /* Pods-CarBuddy-FruitMaskedTextfield-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CarBuddy-FruitMaskedTextfield-dummy.m"; sourceTree = "<group>"; };
+		7739C12D6FD72A4B156372D6 /* EXTNil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTNil.m; path = extobjc/EXTNil.m; sourceTree = "<group>"; };
+		7C44DBE709616038FEF75541 /* Pods-BeaconBroadcaster-libextobjc-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeaconBroadcaster-libextobjc-Private.xcconfig"; sourceTree = "<group>"; };
+		7E882E5F22C96BEE80AD88F7 /* NSIndexSet+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSIndexSet+BlocksKit.h"; path = "BlocksKit/Core/NSIndexSet+BlocksKit.h"; sourceTree = "<group>"; };
+		7EFD9F640FC85E07B58DC1BF /* NSObject+BKBlockExecution.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+BKBlockExecution.h"; path = "BlocksKit/Core/NSObject+BKBlockExecution.h"; sourceTree = "<group>"; };
+		7FD83766A84B654120D6D15A /* Pods-CarBuddy-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CarBuddy-resources.sh"; sourceTree = "<group>"; };
+		813FCB651FE0EA7CFCFF6FE9 /* UIView+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+BlocksKit.h"; path = "BlocksKit/UIKit/UIView+BlocksKit.h"; sourceTree = "<group>"; };
+		83A4930FA0B97E2A88BEF420 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		896DD7E74EAB07519867EB3A /* libPods-CarBuddy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarBuddy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8989A9210DCDEBCC50637A94 /* Pods-BeaconBroadcaster-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BeaconBroadcaster-dummy.m"; sourceTree = "<group>"; };
+		8B15F0A02526AF25315B6F31 /* NSCache+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSCache+BlocksKit.m"; path = "BlocksKit/DynamicDelegate/Foundation/NSCache+BlocksKit.m"; sourceTree = "<group>"; };
+		8C6DFE234F16DD8BE1741549 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8E34C72AAED9911EFFF6CC2F /* NSURLConnection+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLConnection+BlocksKit.m"; path = "BlocksKit/DynamicDelegate/Foundation/NSURLConnection+BlocksKit.m"; sourceTree = "<group>"; };
+		90B4FA784269F7510E54C79A /* EXTConcreteProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTConcreteProtocol.h; path = extobjc/EXTConcreteProtocol.h; sourceTree = "<group>"; };
+		91A8FF9ABA81864F19E7BBF0 /* metamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = metamacros.h; path = extobjc/metamacros.h; sourceTree = "<group>"; };
+		926209D06492702CFA6A508A /* extobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = extobjc.h; path = extobjc/extobjc.h; sourceTree = "<group>"; };
+		92B68E043ACC027EEDCC4925 /* NSMutableIndexSet+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableIndexSet+BlocksKit.m"; path = "BlocksKit/Core/NSMutableIndexSet+BlocksKit.m"; sourceTree = "<group>"; };
+		9306647F4FE2147CD63AF4C5 /* FMTMaskedFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMTMaskedFormatter.m; path = Classes/ios/FMTMaskedFormatter.m; sourceTree = "<group>"; };
+		95BE202D299DF8CD63FB8678 /* Pods-BeaconBroadcaster-libextobjc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BeaconBroadcaster-libextobjc-dummy.m"; sourceTree = "<group>"; };
+		987B028FDBF4226884ACC75B /* NSObject+A2DynamicDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+A2DynamicDelegate.m"; path = "BlocksKit/DynamicDelegate/NSObject+A2DynamicDelegate.m"; sourceTree = "<group>"; };
+		9B2318DD8F60A325E732E146 /* UIBarButtonItem+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+BlocksKit.m"; path = "BlocksKit/UIKit/UIBarButtonItem+BlocksKit.m"; sourceTree = "<group>"; };
+		A1635F5E5774A68F3C800A4E /* Pods-BeaconBroadcaster-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BeaconBroadcaster-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A47E38149657FE0A02C87F17 /* Pods-CarBuddy-BlocksKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarBuddy-BlocksKit-Private.xcconfig"; sourceTree = "<group>"; };
+		A6C21B9B060366E6035E670C /* NSTimer+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+BlocksKit.m"; path = "BlocksKit/Core/NSTimer+BlocksKit.m"; sourceTree = "<group>"; };
+		A81BA33C5856988EECE41746 /* EXTConcreteProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTConcreteProtocol.m; path = extobjc/EXTConcreteProtocol.m; sourceTree = "<group>"; };
+		AC27E637A9D9C6790DCA2F24 /* MFMessageComposeViewController+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MFMessageComposeViewController+BlocksKit.h"; path = "BlocksKit/MessageUI/MFMessageComposeViewController+BlocksKit.h"; sourceTree = "<group>"; };
+		ADC11824D17681355CA8520A /* Pods-CarBuddy-BlocksKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CarBuddy-BlocksKit-prefix.pch"; sourceTree = "<group>"; };
+		AF7F2247B05B5AA00D2E3839 /* NSMethodSignature+EXT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMethodSignature+EXT.h"; path = "extobjc/NSMethodSignature+EXT.h"; sourceTree = "<group>"; };
+		B4AD0B5B5990BAF3FFB59F9E /* libPods-CarBuddy-FruitMaskedTextfield.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarBuddy-FruitMaskedTextfield.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B688144397DB12B1CCF6B8AC /* NSMutableSet+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableSet+BlocksKit.h"; path = "BlocksKit/Core/NSMutableSet+BlocksKit.h"; sourceTree = "<group>"; };
+		B8B03781BDB56F79D10B0793 /* BKMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BKMacros.h; path = BlocksKit/Core/BKMacros.h; sourceTree = "<group>"; };
+		C53C5BC1E87A2E33DA43A4D0 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
+		C7B43AFEBD86B22132BF87AB /* BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlocksKit.h; path = BlocksKit/BlocksKit.h; sourceTree = "<group>"; };
+		CD270ECE203412EFE173E75E /* Pods-CarBuddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarBuddy.release.xcconfig"; sourceTree = "<group>"; };
+		CF9F79C40AB01AC3D7280FB5 /* MFMailComposeViewController+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MFMailComposeViewController+BlocksKit.h"; path = "BlocksKit/MessageUI/MFMailComposeViewController+BlocksKit.h"; sourceTree = "<group>"; };
+		CFAFCECFA2B0487E5DEE5FED /* NSMutableArray+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+BlocksKit.h"; path = "BlocksKit/Core/NSMutableArray+BlocksKit.h"; sourceTree = "<group>"; };
+		D182E10BCD3ECD586B5A6925 /* EXTSafeCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTSafeCategory.m; path = extobjc/EXTSafeCategory.m; sourceTree = "<group>"; };
+		D2B457CA93FC8D6D64C1E0AC /* NSObject+BKBlockObservation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+BKBlockObservation.m"; path = "BlocksKit/Core/NSObject+BKBlockObservation.m"; sourceTree = "<group>"; };
+		D574E57CB9218344313D0A80 /* EXTADT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTADT.m; path = extobjc/EXTADT.m; sourceTree = "<group>"; };
+		D6434D815A746F34F5B14C44 /* MFMailComposeViewController+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MFMailComposeViewController+BlocksKit.m"; path = "BlocksKit/MessageUI/MFMailComposeViewController+BlocksKit.m"; sourceTree = "<group>"; };
+		DA216B704E63F61B266634FC /* Pods-CarBuddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarBuddy.debug.xcconfig"; sourceTree = "<group>"; };
+		DAE46E9E2E3C52AAAAA0FB94 /* NSMutableIndexSet+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableIndexSet+BlocksKit.h"; path = "BlocksKit/Core/NSMutableIndexSet+BlocksKit.h"; sourceTree = "<group>"; };
+		DB48DEF9D31B4264BFE3F361 /* NSArray+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+BlocksKit.m"; path = "BlocksKit/Core/NSArray+BlocksKit.m"; sourceTree = "<group>"; };
+		DD8F2658720F5D6CCACED6A5 /* Pods-BeaconBroadcaster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeaconBroadcaster.debug.xcconfig"; sourceTree = "<group>"; };
+		E0511E27A1F1E1AF1C38BC4C /* EXTScope.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTScope.m; path = extobjc/EXTScope.m; sourceTree = "<group>"; };
+		E79084306A8D14A1CB84DD71 /* NSMutableDictionary+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+BlocksKit.m"; path = "BlocksKit/Core/NSMutableDictionary+BlocksKit.m"; sourceTree = "<group>"; };
+		EA013429708F96C39E9EC78C /* UIImagePickerController+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImagePickerController+BlocksKit.m"; path = "BlocksKit/UIKit/UIImagePickerController+BlocksKit.m"; sourceTree = "<group>"; };
+		EB2F08928A41A5FBECC33E89 /* UIControl+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+BlocksKit.m"; path = "BlocksKit/UIKit/UIControl+BlocksKit.m"; sourceTree = "<group>"; };
+		EE5539CCE362A206EC463F26 /* A2DynamicDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A2DynamicDelegate.h; path = BlocksKit/DynamicDelegate/A2DynamicDelegate.h; sourceTree = "<group>"; };
+		F014EFC62094C2AA8006E533 /* Pods-CarBuddy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CarBuddy-dummy.m"; sourceTree = "<group>"; };
+		F05F5596205AE2F0F4FEB3B9 /* EXTNil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTNil.h; path = extobjc/EXTNil.h; sourceTree = "<group>"; };
+		F20FBC8CD9904C76B76AB8F6 /* NSMutableOrderedSet+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableOrderedSet+BlocksKit.m"; path = "BlocksKit/Core/NSMutableOrderedSet+BlocksKit.m"; sourceTree = "<group>"; };
+		F2B0E2F3E8C1FFF9D5A48960 /* NSObject+BKBlockObservation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+BKBlockObservation.h"; path = "BlocksKit/Core/NSObject+BKBlockObservation.h"; sourceTree = "<group>"; };
+		F64462497A567DEC3BC9BB45 /* Pods-CarBuddy-BlocksKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CarBuddy-BlocksKit-dummy.m"; sourceTree = "<group>"; };
+		FDFD0A91BFC54398C22A0ACF /* UIBarButtonItem+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+BlocksKit.h"; path = "BlocksKit/UIKit/UIBarButtonItem+BlocksKit.h"; sourceTree = "<group>"; };
+		FE0217D94E7B1D486CBF5F27 /* NSInvocation+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+BlocksKit.h"; path = "BlocksKit/Core/NSInvocation+BlocksKit.h"; sourceTree = "<group>"; };
+		FE1CEFD12BDF4E78CB27347F /* Pods-CarBuddy-libextobjc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-CarBuddy-libextobjc-prefix.pch"; path = "../Pods-CarBuddy-libextobjc/Pods-CarBuddy-libextobjc-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1D91CB3D404D8B48A63A7B2D /* Frameworks */ = {
+		1C0F62032E33B66A0700AF65 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAB9B005FA008AC463F4EA1E /* Foundation.framework in Frameworks */,
+				4BEC7FB25703759E69634D4E /* Foundation.framework in Frameworks */,
+				D08D5D5F9A254985F884C000 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		527875B9D654140EAB32A71C /* Frameworks */ = {
+		392E5C11822C82B568D2FFDA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A0DD6D0599E6C34BDDDD874 /* Foundation.framework in Frameworks */,
+				CF04F755149E97F3AACAE3E4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80509E4AA5E574380D9203A5 /* Frameworks */ = {
+		452F81DD71948651600D3C4C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				432BA9748331F961C95C8F38 /* Foundation.framework in Frameworks */,
+				4017CB08EBEBD499EE6DCEAE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		82D673972CC8869ED00F3E88 /* Frameworks */ = {
+		53034441756C2FCB6790C7A8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FE039501C1A4C7DC71B9E58 /* Foundation.framework in Frameworks */,
+				138ED1930BB54F9A3287F5FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B38B92BD99733E4E2EA931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30690E89406B7D3B1C1BDE89 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7C8364405355ADB41734D4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D67D8ABA7C70207CF0B4D42 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		021C5C1ED33489408ABF9BDA /* Targets Support Files */ = {
+		0B8444D9081AD5033EB429D4 /* EXTSafeCategory */ = {
 			isa = PBXGroup;
 			children = (
-				7C1C6086D1B53C00D38AF2AF /* Pods-BeaconBroadcaster */,
-				B5E65CD685603F4B1A0D775B /* Pods-CarBuddy */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		051F8A601A0246675722D21A /* EXTSynthesize */ = {
-			isa = PBXGroup;
-			children = (
-				6E42CB334A384DAD6CCB1385 /* EXTSynthesize.h */,
-			);
-			name = EXTSynthesize;
-			sourceTree = "<group>";
-		};
-		074B44AC4FEB351F7DB7521D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				33B58ADC7D9BF24B9DA9308A /* libextobjc */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		0EABDA6516064B1527054D69 /* UmbrellaHeader */ = {
-			isa = PBXGroup;
-			children = (
-				08315439D55751624A59402D /* extobjc.h */,
-			);
-			name = UmbrellaHeader;
-			sourceTree = "<group>";
-		};
-		1066043D897101355114C40F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				49817C30AAB1AD2BB95216B3 /* Pods-BeaconBroadcaster-libextobjc.xcconfig */,
-				882AAEA8EDBE8A6290377D00 /* Pods-BeaconBroadcaster-libextobjc-Private.xcconfig */,
-				B42EA0C13C076414D4D3E407 /* Pods-BeaconBroadcaster-libextobjc-dummy.m */,
-				E08C0CB56B4AC63EC65C4C12 /* Pods-BeaconBroadcaster-libextobjc-prefix.pch */,
-				0ACAC75BBDE9FD7F5F53D38C /* Pods-CarBuddy-libextobjc.xcconfig */,
-				CB07524927B2D6B7950D4E42 /* Pods-CarBuddy-libextobjc-Private.xcconfig */,
-				D33628CF1A0A1AFF0FFCB5FF /* Pods-CarBuddy-libextobjc-dummy.m */,
-				B381B54E17A5CD943F2CE71C /* Pods-CarBuddy-libextobjc-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-BeaconBroadcaster-libextobjc";
-			sourceTree = "<group>";
-		};
-		17CC689C9F0BE5F75CF03EA5 /* EXTSafeCategory */ = {
-			isa = PBXGroup;
-			children = (
-				AC8C41C14B421B2A450F3926 /* EXTSafeCategory.h */,
-				CA9F7B4DE0B1C2B98084CFB0 /* EXTSafeCategory.m */,
+				33ED6C402261D2F86131B073 /* EXTSafeCategory.h */,
+				D182E10BCD3ECD586B5A6925 /* EXTSafeCategory.m */,
 			);
 			name = EXTSafeCategory;
 			sourceTree = "<group>";
 		};
-		33B58ADC7D9BF24B9DA9308A /* libextobjc */ = {
+		2563A67DB010787C93EFA289 /* Pods-BeaconBroadcaster */ = {
 			isa = PBXGroup;
 			children = (
-				88C40609217E30F99882BFFE /* EXTADT */,
-				3EEFBBB2B7C2207CCB3907FE /* EXTConcreteProtocol */,
-				9590A82FE54ECC1E53356E11 /* EXTKeyPathCoding */,
-				A20BDFE9F3D730A890988E6F /* EXTNil */,
-				17CC689C9F0BE5F75CF03EA5 /* EXTSafeCategory */,
-				52CFFFF98FA67093D5A03F94 /* EXTScope */,
-				F5BD9A7414DD50E237D02424 /* EXTSelectorChecking */,
-				051F8A601A0246675722D21A /* EXTSynthesize */,
-				FCD2CDB0072E640F41F69136 /* NSInvocation+EXT */,
-				56FBD39DD67E03B87CA3484C /* NSMethodSignature+EXT */,
-				3C25ECFBE8404770300DAD3D /* RuntimeExtensions */,
-				1066043D897101355114C40F /* Support Files */,
-				0EABDA6516064B1527054D69 /* UmbrellaHeader */,
-			);
-			name = libextobjc;
-			path = libextobjc;
-			sourceTree = "<group>";
-		};
-		3A8BD5E4827D8F303E360947 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				AEA852E8E7E35948D365002D /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		3C25ECFBE8404770300DAD3D /* RuntimeExtensions */ = {
-			isa = PBXGroup;
-			children = (
-				E7E3D4A77DFD0AE22EA02086 /* EXTRuntimeExtensions.h */,
-				1CB67A1B318D24B060E53554 /* EXTRuntimeExtensions.m */,
-				F659A9A5479A6720F85CD5FC /* metamacros.h */,
-			);
-			name = RuntimeExtensions;
-			sourceTree = "<group>";
-		};
-		3EEFBBB2B7C2207CCB3907FE /* EXTConcreteProtocol */ = {
-			isa = PBXGroup;
-			children = (
-				E05F5127A1B4469C58D07D62 /* EXTConcreteProtocol.h */,
-				1D78B9EC5D7211AF6FFE37B7 /* EXTConcreteProtocol.m */,
-			);
-			name = EXTConcreteProtocol;
-			sourceTree = "<group>";
-		};
-		52CFFFF98FA67093D5A03F94 /* EXTScope */ = {
-			isa = PBXGroup;
-			children = (
-				05191801304EAAA283938B6C /* EXTScope.h */,
-				6E805A782C7858F8DAECF716 /* EXTScope.m */,
-			);
-			name = EXTScope;
-			sourceTree = "<group>";
-		};
-		56FBD39DD67E03B87CA3484C /* NSMethodSignature+EXT */ = {
-			isa = PBXGroup;
-			children = (
-				47C3BC0A1134FA6A4D20BB90 /* NSMethodSignature+EXT.h */,
-				C9FD2AFA029F2D01D4015C5D /* NSMethodSignature+EXT.m */,
-			);
-			name = "NSMethodSignature+EXT";
-			sourceTree = "<group>";
-		};
-		5E69264F16EBC045B60AEA83 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CA2688C694D027F707CE76B0 /* libPods-BeaconBroadcaster.a */,
-				1F756DD80B917A18CC0C7E62 /* libPods-BeaconBroadcaster-libextobjc.a */,
-				A0F5F2C84275719630AEA1A0 /* libPods-CarBuddy.a */,
-				BB7936CCB7BFAE7915304839 /* libPods-CarBuddy-libextobjc.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		7C1C6086D1B53C00D38AF2AF /* Pods-BeaconBroadcaster */ = {
-			isa = PBXGroup;
-			children = (
-				F048B19DEF5DEC38DE7D8BCD /* Pods-BeaconBroadcaster-acknowledgements.markdown */,
-				ABA0D7BC3C46055486FCC25B /* Pods-BeaconBroadcaster-acknowledgements.plist */,
-				751F89A462D6208C76B015DC /* Pods-BeaconBroadcaster-dummy.m */,
-				96BE0A73282B591BF9CF3D8A /* Pods-BeaconBroadcaster-environment.h */,
-				A000301E3C07851FFD7DAE37 /* Pods-BeaconBroadcaster-resources.sh */,
-				C7CC15F5A68299904A3F8E2A /* Pods-BeaconBroadcaster.debug.xcconfig */,
-				F34E2779B4C711962BA92D61 /* Pods-BeaconBroadcaster.release.xcconfig */,
+				A1635F5E5774A68F3C800A4E /* Pods-BeaconBroadcaster-acknowledgements.markdown */,
+				2D87CC739D7150AE9AFF1AD1 /* Pods-BeaconBroadcaster-acknowledgements.plist */,
+				8989A9210DCDEBCC50637A94 /* Pods-BeaconBroadcaster-dummy.m */,
+				432862E6BCA474758E633697 /* Pods-BeaconBroadcaster-environment.h */,
+				6E8C3D33F075AEFD4453359A /* Pods-BeaconBroadcaster-resources.sh */,
+				DD8F2658720F5D6CCACED6A5 /* Pods-BeaconBroadcaster.debug.xcconfig */,
+				364DEDD0A30811FB42A7640E /* Pods-BeaconBroadcaster.release.xcconfig */,
 			);
 			name = "Pods-BeaconBroadcaster";
 			path = "Target Support Files/Pods-BeaconBroadcaster";
 			sourceTree = "<group>";
 		};
-		88C40609217E30F99882BFFE /* EXTADT */ = {
+		2F2E712F62E10D35588C6F7B /* BlocksKit */ = {
 			isa = PBXGroup;
 			children = (
-				BC3655A58705140546BD737B /* EXTADT.h */,
-				DA671CE2CA31CE79C5607AA2 /* EXTADT.m */,
+				697E2A159EB33C204086A86E /* Core */,
+				55B29E6AF962FAF310DCE972 /* DynamicDelegate */,
+				77789F2392A104FA91CD3B84 /* MessageUI */,
+				B932142A88195D5B0F59D505 /* Support Files */,
+				83EA14CECE3E1234EBFE273C /* UIKit */,
 			);
-			name = EXTADT;
+			name = BlocksKit;
+			path = BlocksKit;
 			sourceTree = "<group>";
 		};
-		9590A82FE54ECC1E53356E11 /* EXTKeyPathCoding */ = {
+		40249268838775C375B8A62E /* UmbrellaHeader */ = {
 			isa = PBXGroup;
 			children = (
-				F68EB3760D031F3A9988800E /* EXTKeyPathCoding.h */,
+				926209D06492702CFA6A508A /* extobjc.h */,
 			);
-			name = EXTKeyPathCoding;
+			name = UmbrellaHeader;
 			sourceTree = "<group>";
 		};
-		A154630948580A2B89ED69AB /* Frameworks */ = {
+		436C91423BC37DF0250A872F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				3A8BD5E4827D8F303E360947 /* iOS */,
+				83A4930FA0B97E2A88BEF420 /* Foundation.framework */,
+				C53C5BC1E87A2E33DA43A4D0 /* MessageUI.framework */,
 			);
-			name = Frameworks;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		A20BDFE9F3D730A890988E6F /* EXTNil */ = {
+		51C6C1B574B93B49376F4FB6 /* EXTSelectorChecking */ = {
 			isa = PBXGroup;
 			children = (
-				C6DC514B3EAC8A7836FD8DBE /* EXTNil.h */,
-				C4BFF08271A599B7628CEE27 /* EXTNil.m */,
+				230710192C1E350913FD2061 /* EXTSelectorChecking.h */,
+				19350AEEDCFDC58FDCC039B2 /* EXTSelectorChecking.m */,
 			);
-			name = EXTNil;
+			name = EXTSelectorChecking;
 			sourceTree = "<group>";
 		};
-		ABF1EB97DDEE99B7756A635E = {
+		53A7FF68F21B67CDA1F4BC70 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				975164F72D81ED20742D4533 /* Podfile */,
-				A154630948580A2B89ED69AB /* Frameworks */,
-				074B44AC4FEB351F7DB7521D /* Pods */,
-				5E69264F16EBC045B60AEA83 /* Products */,
-				021C5C1ED33489408ABF9BDA /* Targets Support Files */,
+				2563A67DB010787C93EFA289 /* Pods-BeaconBroadcaster */,
+				8251BD4C42C81D5D879EE8EB /* Pods-CarBuddy */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		555F1D48435E487DAE243143 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B668AD1F1AA22BBF0027156 /* libPods-BeaconBroadcaster.a */,
+				1E13C748C08D099A022D47F4 /* libPods-BeaconBroadcaster-libextobjc.a */,
+				896DD7E74EAB07519867EB3A /* libPods-CarBuddy.a */,
+				55E4276E27557E7853F56C45 /* libPods-CarBuddy-BlocksKit.a */,
+				B4AD0B5B5990BAF3FFB59F9E /* libPods-CarBuddy-FruitMaskedTextfield.a */,
+				208A4D3AFDE3E656F35C185F /* libPods-CarBuddy-libextobjc.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55B29E6AF962FAF310DCE972 /* DynamicDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3473D308E76D9F4C1280D4AB /* A2BlockInvocation.h */,
+				1B435392254B96263B4125CD /* A2BlockInvocation.m */,
+				EE5539CCE362A206EC463F26 /* A2DynamicDelegate.h */,
+				21B50D1616E36373BA9D0ACC /* A2DynamicDelegate.m */,
+				4C71D9C38FFA81C4536646FD /* NSCache+BlocksKit.h */,
+				8B15F0A02526AF25315B6F31 /* NSCache+BlocksKit.m */,
+				4C921C039EA6BB8EF3C63019 /* NSObject+A2BlockDelegate.h */,
+				6F9C1BD3CC9D7B7A1D709D81 /* NSObject+A2BlockDelegate.m */,
+				16CE3E69D47A2DDB9A3FE161 /* NSObject+A2DynamicDelegate.h */,
+				987B028FDBF4226884ACC75B /* NSObject+A2DynamicDelegate.m */,
+				3756D3CD64EAE86B4E48FF35 /* NSURLConnection+BlocksKit.h */,
+				8E34C72AAED9911EFFF6CC2F /* NSURLConnection+BlocksKit.m */,
+			);
+			name = DynamicDelegate;
+			sourceTree = "<group>";
+		};
+		697E2A159EB33C204086A86E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B8B03781BDB56F79D10B0793 /* BKMacros.h */,
+				C7B43AFEBD86B22132BF87AB /* BlocksKit.h */,
+				39EABC739D1BC1A239A1011D /* NSArray+BlocksKit.h */,
+				DB48DEF9D31B4264BFE3F361 /* NSArray+BlocksKit.m */,
+				57D1FEE57130E20C022C5B59 /* NSDictionary+BlocksKit.h */,
+				417AA60490E611F4B00CB33D /* NSDictionary+BlocksKit.m */,
+				7E882E5F22C96BEE80AD88F7 /* NSIndexSet+BlocksKit.h */,
+				0EC0A755D240D0F8E5BB4BDD /* NSIndexSet+BlocksKit.m */,
+				FE0217D94E7B1D486CBF5F27 /* NSInvocation+BlocksKit.h */,
+				03A0DD2ACAA11E7847BEA5C5 /* NSInvocation+BlocksKit.m */,
+				CFAFCECFA2B0487E5DEE5FED /* NSMutableArray+BlocksKit.h */,
+				0E91C633E70B4251ACB36926 /* NSMutableArray+BlocksKit.m */,
+				02D81BABDF30956C6C7F3E73 /* NSMutableDictionary+BlocksKit.h */,
+				E79084306A8D14A1CB84DD71 /* NSMutableDictionary+BlocksKit.m */,
+				DAE46E9E2E3C52AAAAA0FB94 /* NSMutableIndexSet+BlocksKit.h */,
+				92B68E043ACC027EEDCC4925 /* NSMutableIndexSet+BlocksKit.m */,
+				3752E102A0A5D4F72ED28D73 /* NSMutableOrderedSet+BlocksKit.h */,
+				F20FBC8CD9904C76B76AB8F6 /* NSMutableOrderedSet+BlocksKit.m */,
+				B688144397DB12B1CCF6B8AC /* NSMutableSet+BlocksKit.h */,
+				594EAE147873FF5505DB4804 /* NSMutableSet+BlocksKit.m */,
+				4814A66CE3E8FB577C375996 /* NSObject+BKAssociatedObjects.h */,
+				6DD106A532757E3E68CB168C /* NSObject+BKAssociatedObjects.m */,
+				7EFD9F640FC85E07B58DC1BF /* NSObject+BKBlockExecution.h */,
+				13532C991A31AB3D709A825E /* NSObject+BKBlockExecution.m */,
+				F2B0E2F3E8C1FFF9D5A48960 /* NSObject+BKBlockObservation.h */,
+				D2B457CA93FC8D6D64C1E0AC /* NSObject+BKBlockObservation.m */,
+				200D9E1267C9A6DDB548E28B /* NSOrderedSet+BlocksKit.h */,
+				275E5602C3B8BDC464BAD34A /* NSOrderedSet+BlocksKit.m */,
+				039CBE7A412675543D6122FC /* NSSet+BlocksKit.h */,
+				6FD529FBAB83C8A36A72AB4F /* NSSet+BlocksKit.m */,
+				25FB8BEFA107B7B86C3AB061 /* NSTimer+BlocksKit.h */,
+				A6C21B9B060366E6035E670C /* NSTimer+BlocksKit.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		6C9EB9665AEF5A3FB0824E56 = {
+			isa = PBXGroup;
+			children = (
+				8C6DFE234F16DD8BE1741549 /* Podfile */,
+				9E178C9DA2277BC7B4FBD130 /* Frameworks */,
+				DBE90B79AA62C29F1A020FB4 /* Pods */,
+				555F1D48435E487DAE243143 /* Products */,
+				53A7FF68F21B67CDA1F4BC70 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		B5E65CD685603F4B1A0D775B /* Pods-CarBuddy */ = {
+		7461082C1D4D0C46D5C56ABC /* EXTConcreteProtocol */ = {
 			isa = PBXGroup;
 			children = (
-				70152F99DF55FB0FAE09C420 /* Pods-CarBuddy-acknowledgements.markdown */,
-				F587C967B39FB788FB4D4518 /* Pods-CarBuddy-acknowledgements.plist */,
-				54D64890EF46BDD9CBB3901B /* Pods-CarBuddy-dummy.m */,
-				BBCB7544E8B873A7EA4AF01D /* Pods-CarBuddy-environment.h */,
-				186E5B4F983F2910C2142991 /* Pods-CarBuddy-resources.sh */,
-				217595F2591B2FAED79F3196 /* Pods-CarBuddy.debug.xcconfig */,
-				8D9C97E5315655137876D015 /* Pods-CarBuddy.release.xcconfig */,
+				90B4FA784269F7510E54C79A /* EXTConcreteProtocol.h */,
+				A81BA33C5856988EECE41746 /* EXTConcreteProtocol.m */,
+			);
+			name = EXTConcreteProtocol;
+			sourceTree = "<group>";
+		};
+		7663316D115F55A0EC5496EA /* RuntimeExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				033C966733C47D858B61F0A1 /* EXTRuntimeExtensions.h */,
+				33082FC328DD28FCCA6452A6 /* EXTRuntimeExtensions.m */,
+				91A8FF9ABA81864F19E7BBF0 /* metamacros.h */,
+			);
+			name = RuntimeExtensions;
+			sourceTree = "<group>";
+		};
+		77789F2392A104FA91CD3B84 /* MessageUI */ = {
+			isa = PBXGroup;
+			children = (
+				15392729EDAC7DF737CE0BCB /* BlocksKit+MessageUI.h */,
+				CF9F79C40AB01AC3D7280FB5 /* MFMailComposeViewController+BlocksKit.h */,
+				D6434D815A746F34F5B14C44 /* MFMailComposeViewController+BlocksKit.m */,
+				AC27E637A9D9C6790DCA2F24 /* MFMessageComposeViewController+BlocksKit.h */,
+				20506EB19B6261D429824E88 /* MFMessageComposeViewController+BlocksKit.m */,
+			);
+			name = MessageUI;
+			sourceTree = "<group>";
+		};
+		8251BD4C42C81D5D879EE8EB /* Pods-CarBuddy */ = {
+			isa = PBXGroup;
+			children = (
+				061757DBD75913772ED28374 /* Pods-CarBuddy-acknowledgements.markdown */,
+				768687F26EC4AD3092F68165 /* Pods-CarBuddy-acknowledgements.plist */,
+				F014EFC62094C2AA8006E533 /* Pods-CarBuddy-dummy.m */,
+				48B7A4BC45F084EC9A62CEEA /* Pods-CarBuddy-environment.h */,
+				7FD83766A84B654120D6D15A /* Pods-CarBuddy-resources.sh */,
+				DA216B704E63F61B266634FC /* Pods-CarBuddy.debug.xcconfig */,
+				CD270ECE203412EFE173E75E /* Pods-CarBuddy.release.xcconfig */,
 			);
 			name = "Pods-CarBuddy";
 			path = "Target Support Files/Pods-CarBuddy";
 			sourceTree = "<group>";
 		};
-		F5BD9A7414DD50E237D02424 /* EXTSelectorChecking */ = {
+		83EA14CECE3E1234EBFE273C /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				0F93D20395B6C7EC1362FBD0 /* EXTSelectorChecking.h */,
-				0D6E386E1FB4EF2EE84FAA7C /* EXTSelectorChecking.m */,
+				3108EFC7BC38C7E024E3AC64 /* BlocksKit+UIKit.h */,
+				3D5F805D95DC1A4BD6BF7CF0 /* UIActionSheet+BlocksKit.h */,
+				4C34FA19EDD511BA13D1ED9F /* UIActionSheet+BlocksKit.m */,
+				1F48E800E10225A0DC19FBA8 /* UIAlertView+BlocksKit.h */,
+				67A9887C14E4430AFFAA2CB1 /* UIAlertView+BlocksKit.m */,
+				FDFD0A91BFC54398C22A0ACF /* UIBarButtonItem+BlocksKit.h */,
+				9B2318DD8F60A325E732E146 /* UIBarButtonItem+BlocksKit.m */,
+				5570A51C8E3B32B76CFF5568 /* UIControl+BlocksKit.h */,
+				EB2F08928A41A5FBECC33E89 /* UIControl+BlocksKit.m */,
+				02F437F03A5A90062E1168AF /* UIGestureRecognizer+BlocksKit.h */,
+				467864F8929B8121DFF0A266 /* UIGestureRecognizer+BlocksKit.m */,
+				220D04C5F2D9926FA7D5233B /* UIImagePickerController+BlocksKit.h */,
+				EA013429708F96C39E9EC78C /* UIImagePickerController+BlocksKit.m */,
+				492584E965C5E2648E1A6337 /* UIPopoverController+BlocksKit.h */,
+				3F3FB772AD34BEA972C82C48 /* UIPopoverController+BlocksKit.m */,
+				20789182F0B2DDB42A27E7B5 /* UITextField+BlocksKit.h */,
+				08A22F82147CB1AA6B01BEBB /* UITextField+BlocksKit.m */,
+				813FCB651FE0EA7CFCFF6FE9 /* UIView+BlocksKit.h */,
+				68C20A8652BFB99EFF6FCCD0 /* UIView+BlocksKit.m */,
+				4688F0B6E9118450BF7D9663 /* UIWebView+BlocksKit.h */,
+				4A780A09C2B6C2106DB7CD3D /* UIWebView+BlocksKit.m */,
 			);
-			name = EXTSelectorChecking;
+			name = UIKit;
 			sourceTree = "<group>";
 		};
-		FCD2CDB0072E640F41F69136 /* NSInvocation+EXT */ = {
+		8F0988601CC01FB1859099DC /* EXTSynthesize */ = {
 			isa = PBXGroup;
 			children = (
-				2B4D7FCDB0F3716F27C5D0F2 /* NSInvocation+EXT.h */,
-				FA5FB760DBC66A6A0309D9E4 /* NSInvocation+EXT.m */,
+				310951CC2D10961C2B401B35 /* EXTSynthesize.h */,
+			);
+			name = EXTSynthesize;
+			sourceTree = "<group>";
+		};
+		8F55BFD87E038042885FC997 /* FruitMaskedTextfield */ = {
+			isa = PBXGroup;
+			children = (
+				23C1DD1445FB30EAD77DE90A /* FMTMaskedFormatter.h */,
+				9306647F4FE2147CD63AF4C5 /* FMTMaskedFormatter.m */,
+				137A2C69D54EAF08A53D786D /* UITextField+Mask.h */,
+				12F4EF7E0FA43A9D05E20B94 /* UITextField+Mask.m */,
+				CBCF2EFA91633B8165A3499F /* Support Files */,
+			);
+			name = FruitMaskedTextfield;
+			path = FruitMaskedTextfield;
+			sourceTree = "<group>";
+		};
+		9613B8CAF6D35B0F307051F5 /* EXTNil */ = {
+			isa = PBXGroup;
+			children = (
+				F05F5596205AE2F0F4FEB3B9 /* EXTNil.h */,
+				7739C12D6FD72A4B156372D6 /* EXTNil.m */,
+			);
+			name = EXTNil;
+			sourceTree = "<group>";
+		};
+		9E178C9DA2277BC7B4FBD130 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				436C91423BC37DF0250A872F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC5D0C19D906D20BBD9E3E65 /* NSMethodSignature+EXT */ = {
+			isa = PBXGroup;
+			children = (
+				AF7F2247B05B5AA00D2E3839 /* NSMethodSignature+EXT.h */,
+				6F5EB640A07BF616D9D19E1B /* NSMethodSignature+EXT.m */,
+			);
+			name = "NSMethodSignature+EXT";
+			sourceTree = "<group>";
+		};
+		B0146302A011FA74437E4ACA /* EXTScope */ = {
+			isa = PBXGroup;
+			children = (
+				13000822ED4B35EA1687F19D /* EXTScope.h */,
+				E0511E27A1F1E1AF1C38BC4C /* EXTScope.m */,
+			);
+			name = EXTScope;
+			sourceTree = "<group>";
+		};
+		B932142A88195D5B0F59D505 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DAAB2C1E3AF84CF8F983E28 /* Pods-CarBuddy-BlocksKit.xcconfig */,
+				A47E38149657FE0A02C87F17 /* Pods-CarBuddy-BlocksKit-Private.xcconfig */,
+				F64462497A567DEC3BC9BB45 /* Pods-CarBuddy-BlocksKit-dummy.m */,
+				ADC11824D17681355CA8520A /* Pods-CarBuddy-BlocksKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-CarBuddy-BlocksKit";
+			sourceTree = "<group>";
+		};
+		C238F6F5C93BBF4030BF9FEB /* libextobjc */ = {
+			isa = PBXGroup;
+			children = (
+				DFF9C355DAA743F751D61D0A /* EXTADT */,
+				7461082C1D4D0C46D5C56ABC /* EXTConcreteProtocol */,
+				EF3AC8CC3B72C2299AEA486E /* EXTKeyPathCoding */,
+				9613B8CAF6D35B0F307051F5 /* EXTNil */,
+				0B8444D9081AD5033EB429D4 /* EXTSafeCategory */,
+				B0146302A011FA74437E4ACA /* EXTScope */,
+				51C6C1B574B93B49376F4FB6 /* EXTSelectorChecking */,
+				8F0988601CC01FB1859099DC /* EXTSynthesize */,
+				F1442FC14A345B19B73D14BC /* NSInvocation+EXT */,
+				AC5D0C19D906D20BBD9E3E65 /* NSMethodSignature+EXT */,
+				7663316D115F55A0EC5496EA /* RuntimeExtensions */,
+				FDB4012FC77442615C956098 /* Support Files */,
+				40249268838775C375B8A62E /* UmbrellaHeader */,
+			);
+			name = libextobjc;
+			path = libextobjc;
+			sourceTree = "<group>";
+		};
+		CBCF2EFA91633B8165A3499F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				535970350A96A46B22B97374 /* Pods-CarBuddy-FruitMaskedTextfield.xcconfig */,
+				4AB0837211341582B973B525 /* Pods-CarBuddy-FruitMaskedTextfield-Private.xcconfig */,
+				76B44EE07E321B31A3F00ADE /* Pods-CarBuddy-FruitMaskedTextfield-dummy.m */,
+				2E25CEFE018C66E8A4BC203D /* Pods-CarBuddy-FruitMaskedTextfield-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-CarBuddy-FruitMaskedTextfield";
+			sourceTree = "<group>";
+		};
+		DBE90B79AA62C29F1A020FB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E712F62E10D35588C6F7B /* BlocksKit */,
+				8F55BFD87E038042885FC997 /* FruitMaskedTextfield */,
+				C238F6F5C93BBF4030BF9FEB /* libextobjc */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DFF9C355DAA743F751D61D0A /* EXTADT */ = {
+			isa = PBXGroup;
+			children = (
+				6D99EDB3F95AF2837947BA4C /* EXTADT.h */,
+				D574E57CB9218344313D0A80 /* EXTADT.m */,
+			);
+			name = EXTADT;
+			sourceTree = "<group>";
+		};
+		EF3AC8CC3B72C2299AEA486E /* EXTKeyPathCoding */ = {
+			isa = PBXGroup;
+			children = (
+				0354A7106841CD885C36E8E3 /* EXTKeyPathCoding.h */,
+			);
+			name = EXTKeyPathCoding;
+			sourceTree = "<group>";
+		};
+		F1442FC14A345B19B73D14BC /* NSInvocation+EXT */ = {
+			isa = PBXGroup;
+			children = (
+				356DBAC5B32E8A9D98D65529 /* NSInvocation+EXT.h */,
+				73B32F80156417C02CAD80A7 /* NSInvocation+EXT.m */,
 			);
 			name = "NSInvocation+EXT";
+			sourceTree = "<group>";
+		};
+		FDB4012FC77442615C956098 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				46C174A33312C3CB45807F2A /* Pods-BeaconBroadcaster-libextobjc.xcconfig */,
+				7C44DBE709616038FEF75541 /* Pods-BeaconBroadcaster-libextobjc-Private.xcconfig */,
+				95BE202D299DF8CD63FB8678 /* Pods-BeaconBroadcaster-libextobjc-dummy.m */,
+				177B767F336C363CABC4529C /* Pods-BeaconBroadcaster-libextobjc-prefix.pch */,
+				31A9B43E69E7771651FCDEB5 /* Pods-CarBuddy-libextobjc.xcconfig */,
+				0555FEB0E21E0A842FA1F229 /* Pods-CarBuddy-libextobjc-Private.xcconfig */,
+				19EA09B79D6734EEDECBB697 /* Pods-CarBuddy-libextobjc-dummy.m */,
+				FE1CEFD12BDF4E78CB27347F /* Pods-CarBuddy-libextobjc-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-BeaconBroadcaster-libextobjc";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B3F58FEA8B385582E55342B9 /* Headers */ = {
+		354BA4A5C78707281697534D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82003A38A693E9024845CBD0 /* EXTADT.h in Headers */,
-				C8229364ACEB39091A8AC7BB /* EXTConcreteProtocol.h in Headers */,
-				BDBF5EE0E7E69AC32ED05907 /* EXTKeyPathCoding.h in Headers */,
-				F10042C795D309288A686056 /* EXTNil.h in Headers */,
-				ECBA741A65E07691A1FF283C /* EXTRuntimeExtensions.h in Headers */,
-				EA1607D52F43ED1830EA3EE2 /* EXTSafeCategory.h in Headers */,
-				BDE7339EDB7D35DEA128E817 /* EXTScope.h in Headers */,
-				7F2F1321BD218876718705C3 /* EXTSelectorChecking.h in Headers */,
-				BF17654E8E27CF046868183F /* EXTSynthesize.h in Headers */,
-				580DBA80814559583E252B7C /* NSInvocation+EXT.h in Headers */,
-				32080EE7A1117D49D4FD1D1D /* NSMethodSignature+EXT.h in Headers */,
-				0F4F74DB6A9D22797B6E91CA /* extobjc.h in Headers */,
-				D26EC4C9613204D71175EEB2 /* metamacros.h in Headers */,
+				C788FBFEF4936121FC202B65 /* EXTADT.h in Headers */,
+				45C0B1AF6484421B0C8D1640 /* EXTConcreteProtocol.h in Headers */,
+				D0BD23D9E260816EEC7561E0 /* EXTKeyPathCoding.h in Headers */,
+				65AFE38DC33837A242FE4159 /* EXTNil.h in Headers */,
+				327D21D1FC646C87214F9636 /* EXTRuntimeExtensions.h in Headers */,
+				B1A248684F0780B5767921BC /* EXTSafeCategory.h in Headers */,
+				9757711FF394DF4625C860F8 /* EXTScope.h in Headers */,
+				5A183D98C57A22EBCA9DCC75 /* EXTSelectorChecking.h in Headers */,
+				A919B3B4522053F6226D5500 /* EXTSynthesize.h in Headers */,
+				E724F694849636FC4C53CAE9 /* NSInvocation+EXT.h in Headers */,
+				788E6B39704390936C0BAC11 /* NSMethodSignature+EXT.h in Headers */,
+				3888D81757424C3B782F9FE6 /* extobjc.h in Headers */,
+				A286F8EB4DC615FA6B48571D /* metamacros.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CDF9A85ECCA0C7EA9EFD1794 /* Headers */ = {
+		682B241A757E3D7226C40621 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51CA512D4F037003736470C8 /* EXTADT.h in Headers */,
-				EBC0AB825D56093E7C09C01D /* EXTConcreteProtocol.h in Headers */,
-				80247CF33D08953C486DF908 /* EXTKeyPathCoding.h in Headers */,
-				8CD9BE309CF490FDAE76A40B /* EXTNil.h in Headers */,
-				DB0B853F02BAEC01BBB73221 /* EXTRuntimeExtensions.h in Headers */,
-				E79D0FD52C4B79D6293A2539 /* EXTSafeCategory.h in Headers */,
-				57DF5C86065954BE98194084 /* EXTScope.h in Headers */,
-				20BBB24C8397A1155E8ADF2E /* EXTSelectorChecking.h in Headers */,
-				6CD88A919948B1D3878D9F55 /* EXTSynthesize.h in Headers */,
-				2FABE4D94076E2BCBB98A0C7 /* NSInvocation+EXT.h in Headers */,
-				2E034ADD0CF8583730DA4DAA /* NSMethodSignature+EXT.h in Headers */,
-				78C782469B7522CADADAD6AD /* extobjc.h in Headers */,
-				B33B256C4FCD44A1F24DEF3C /* metamacros.h in Headers */,
+				9C2D95311A9AD5698844FC72 /* EXTADT.h in Headers */,
+				062AD32DF9B602ACC258C56A /* EXTConcreteProtocol.h in Headers */,
+				6FB301B82BD44A5093C0A914 /* EXTKeyPathCoding.h in Headers */,
+				371131CDE272080DB13A66CD /* EXTNil.h in Headers */,
+				D4E056A93AD5A4F68E5CF000 /* EXTRuntimeExtensions.h in Headers */,
+				689534FE8A7DEC3DE8F7465D /* EXTSafeCategory.h in Headers */,
+				CC089100FE0F40404EB96A39 /* EXTScope.h in Headers */,
+				969ABA1A103DF9A2457C6B87 /* EXTSelectorChecking.h in Headers */,
+				08258608E74F6D9650014231 /* EXTSynthesize.h in Headers */,
+				2D8A67FFB576E1AF74E87D37 /* NSInvocation+EXT.h in Headers */,
+				404CCBD1D5160EADC3316118 /* NSMethodSignature+EXT.h in Headers */,
+				86C1B2BD820C1BE279CCD96A /* extobjc.h in Headers */,
+				40A07122692F8697AE5F131D /* metamacros.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B35F19DB5A497410F9BD47CE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB18BBCB910B2585862CC31 /* A2BlockInvocation.h in Headers */,
+				D6E8A0BFAB4013A01A0C6772 /* A2DynamicDelegate.h in Headers */,
+				DFCD42EA4B4F95B3A210B3B6 /* BKMacros.h in Headers */,
+				B46B475DBD5F5B5BA808A4B5 /* BlocksKit+MessageUI.h in Headers */,
+				D168FCEEB6738784902FB062 /* BlocksKit+UIKit.h in Headers */,
+				6A92DC57B1B18FA39A040615 /* BlocksKit.h in Headers */,
+				5EFBB96B141914754B2A2A5A /* MFMailComposeViewController+BlocksKit.h in Headers */,
+				5AAE77E2000FED0BD595862A /* MFMessageComposeViewController+BlocksKit.h in Headers */,
+				1ACECA1C4ADDD865DCC568DB /* NSArray+BlocksKit.h in Headers */,
+				1C93A00FE1AC29CE687A1786 /* NSCache+BlocksKit.h in Headers */,
+				A8E80237886F90B95B56127D /* NSDictionary+BlocksKit.h in Headers */,
+				C2BDB6192A7FE8F0547FC14B /* NSIndexSet+BlocksKit.h in Headers */,
+				F0690FBD7C74B6CCE25B1CB3 /* NSInvocation+BlocksKit.h in Headers */,
+				AA42AC1C037351CA7A17307E /* NSMutableArray+BlocksKit.h in Headers */,
+				A43ACCE9DAA6EBC839A5758A /* NSMutableDictionary+BlocksKit.h in Headers */,
+				4AE15F1091648F0876CF6958 /* NSMutableIndexSet+BlocksKit.h in Headers */,
+				B45D0C560CA8A35385142271 /* NSMutableOrderedSet+BlocksKit.h in Headers */,
+				C41969F9E1A3729340F0E825 /* NSMutableSet+BlocksKit.h in Headers */,
+				E6FF5BE68916A62DB297EEB2 /* NSObject+A2BlockDelegate.h in Headers */,
+				A8F38A704C781F163ED6DF6B /* NSObject+A2DynamicDelegate.h in Headers */,
+				17A425B1C6278F1FF028108F /* NSObject+BKAssociatedObjects.h in Headers */,
+				030E2D71DD426C882E56DCDE /* NSObject+BKBlockExecution.h in Headers */,
+				63A9A7DB0D2AAD594E3B6BBE /* NSObject+BKBlockObservation.h in Headers */,
+				0175D405A02AAD2E1408E05F /* NSOrderedSet+BlocksKit.h in Headers */,
+				0D63035D2B1AD4E9E51983C0 /* NSSet+BlocksKit.h in Headers */,
+				FCF686D4EC03A2C8EAE3271B /* NSTimer+BlocksKit.h in Headers */,
+				288760A76F4EF96E67BA3ACB /* NSURLConnection+BlocksKit.h in Headers */,
+				C220A35BF8712E1D12BC86E7 /* UIActionSheet+BlocksKit.h in Headers */,
+				4F7090F885351B414FAF11CA /* UIAlertView+BlocksKit.h in Headers */,
+				2C44E530CAA9A74DBB824E90 /* UIBarButtonItem+BlocksKit.h in Headers */,
+				29A0419E306B1AFCFC0B8E9C /* UIControl+BlocksKit.h in Headers */,
+				CD0F1FC5CC31465C454F4F9F /* UIGestureRecognizer+BlocksKit.h in Headers */,
+				85CC70751ABBE941287CE1AF /* UIImagePickerController+BlocksKit.h in Headers */,
+				15A643799B527AA1A34013DD /* UIPopoverController+BlocksKit.h in Headers */,
+				55F7A42593E8FCBB994EBE56 /* UITextField+BlocksKit.h in Headers */,
+				F14B065D81B2104FE20D6BFF /* UIView+BlocksKit.h in Headers */,
+				C91FEC93EACD8E776B962ED9 /* UIWebView+BlocksKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D481367ADB89B08C42F76015 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				107501D5443720A160285C94 /* FMTMaskedFormatter.h in Headers */,
+				CDD89D50824E72B30C2E188E /* UITextField+Mask.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3E83F9ED0417C17F1645E491 /* Pods-CarBuddy */ = {
+		09D6D4597F5084CDD5B09650 /* Pods-CarBuddy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F6583916A259ABFE059D2756 /* Build configuration list for PBXNativeTarget "Pods-CarBuddy" */;
+			buildConfigurationList = F85E9C48313AAC1147AD56BC /* Build configuration list for PBXNativeTarget "Pods-CarBuddy" */;
 			buildPhases = (
-				849BD6787B30029EB093A6D8 /* Sources */,
-				1D91CB3D404D8B48A63A7B2D /* Frameworks */,
+				D8537F2B585868D8FC81508C /* Sources */,
+				53034441756C2FCB6790C7A8 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5C3D3E087BD6AF812CE99FEA /* PBXTargetDependency */,
+				AE1690904ACFADCACF29C3F9 /* PBXTargetDependency */,
+				119004549D11F1BC299068FC /* PBXTargetDependency */,
+				BF5A7DD3AFF2FEDCCFB7DE77 /* PBXTargetDependency */,
 			);
 			name = "Pods-CarBuddy";
 			productName = "Pods-CarBuddy";
-			productReference = A0F5F2C84275719630AEA1A0 /* libPods-CarBuddy.a */;
+			productReference = 896DD7E74EAB07519867EB3A /* libPods-CarBuddy.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		6406F7A492BBF2142C777ABF /* Pods-CarBuddy-libextobjc */ = {
+		3E158C64EB568F96E17BE192 /* Pods-BeaconBroadcaster-libextobjc */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6CE4BE9EB52F1DFD5F896197 /* Build configuration list for PBXNativeTarget "Pods-CarBuddy-libextobjc" */;
+			buildConfigurationList = 1F1881A54A3AE4065DD641E1 /* Build configuration list for PBXNativeTarget "Pods-BeaconBroadcaster-libextobjc" */;
 			buildPhases = (
-				D7C84205B7D32664BC713BA9 /* Sources */,
-				527875B9D654140EAB32A71C /* Frameworks */,
-				B3F58FEA8B385582E55342B9 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-CarBuddy-libextobjc";
-			productName = "Pods-CarBuddy-libextobjc";
-			productReference = BB7936CCB7BFAE7915304839 /* libPods-CarBuddy-libextobjc.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		C727FFC23221CC6BD682E9A3 /* Pods-BeaconBroadcaster */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EB99E3678A8DFB00C34A3161 /* Build configuration list for PBXNativeTarget "Pods-BeaconBroadcaster" */;
-			buildPhases = (
-				D231A7C9A12358A9F3C4A699 /* Sources */,
-				82D673972CC8869ED00F3E88 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				34FDE647D044171C19A79F23 /* PBXTargetDependency */,
-			);
-			name = "Pods-BeaconBroadcaster";
-			productName = "Pods-BeaconBroadcaster";
-			productReference = CA2688C694D027F707CE76B0 /* libPods-BeaconBroadcaster.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		E22FE5E50B199039F6B740D6 /* Pods-BeaconBroadcaster-libextobjc */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 38F290E14888F466C3C7B9B4 /* Build configuration list for PBXNativeTarget "Pods-BeaconBroadcaster-libextobjc" */;
-			buildPhases = (
-				0BCA17289A0A9412935D3158 /* Sources */,
-				80509E4AA5E574380D9203A5 /* Frameworks */,
-				CDF9A85ECCA0C7EA9EFD1794 /* Headers */,
+				041BE1B498EE2C80F7D67B89 /* Sources */,
+				C7C8364405355ADB41734D4E /* Frameworks */,
+				682B241A757E3D7226C40621 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -506,107 +875,381 @@
 			);
 			name = "Pods-BeaconBroadcaster-libextobjc";
 			productName = "Pods-BeaconBroadcaster-libextobjc";
-			productReference = 1F756DD80B917A18CC0C7E62 /* libPods-BeaconBroadcaster-libextobjc.a */;
+			productReference = 1E13C748C08D099A022D47F4 /* libPods-BeaconBroadcaster-libextobjc.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		41FD017CBB34F1354BDA56BF /* Pods-BeaconBroadcaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA7D74A9DFD8770632D2F507 /* Build configuration list for PBXNativeTarget "Pods-BeaconBroadcaster" */;
+			buildPhases = (
+				35131FAE1CDAE477FE4643B7 /* Sources */,
+				B8B38B92BD99733E4E2EA931 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D02A3A63086BF1EA388CB7E /* PBXTargetDependency */,
+			);
+			name = "Pods-BeaconBroadcaster";
+			productName = "Pods-BeaconBroadcaster";
+			productReference = 5B668AD1F1AA22BBF0027156 /* libPods-BeaconBroadcaster.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5B34D9261D7D5FEDC5176124 /* Pods-CarBuddy-libextobjc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 286A476D68A965A7F55CDE7F /* Build configuration list for PBXNativeTarget "Pods-CarBuddy-libextobjc" */;
+			buildPhases = (
+				7AC6F026C2A8BA5F084B621F /* Sources */,
+				452F81DD71948651600D3C4C /* Frameworks */,
+				354BA4A5C78707281697534D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CarBuddy-libextobjc";
+			productName = "Pods-CarBuddy-libextobjc";
+			productReference = 208A4D3AFDE3E656F35C185F /* libPods-CarBuddy-libextobjc.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7D197C4B27B4D76238D47DBA /* Pods-CarBuddy-BlocksKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C03DA4C4EE465B4458F9A58E /* Build configuration list for PBXNativeTarget "Pods-CarBuddy-BlocksKit" */;
+			buildPhases = (
+				D1F051C13F7076A1673040AA /* Sources */,
+				1C0F62032E33B66A0700AF65 /* Frameworks */,
+				B35F19DB5A497410F9BD47CE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CarBuddy-BlocksKit";
+			productName = "Pods-CarBuddy-BlocksKit";
+			productReference = 55E4276E27557E7853F56C45 /* libPods-CarBuddy-BlocksKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7E43E16D38E70E2435BACF4D /* Pods-CarBuddy-FruitMaskedTextfield */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1D528365050C6C95867E439 /* Build configuration list for PBXNativeTarget "Pods-CarBuddy-FruitMaskedTextfield" */;
+			buildPhases = (
+				BEB8EC0FF33FECCCD41ECBEC /* Sources */,
+				392E5C11822C82B568D2FFDA /* Frameworks */,
+				D481367ADB89B08C42F76015 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CarBuddy-FruitMaskedTextfield";
+			productName = "Pods-CarBuddy-FruitMaskedTextfield";
+			productReference = B4AD0B5B5990BAF3FFB59F9E /* libPods-CarBuddy-FruitMaskedTextfield.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F81C60A47EAAD6FF7DCDFD04 /* Project object */ = {
+		F37BD5E70FFFEF32681B1816 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = 1542B93053FD23DF74738CDE /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = A1588B403559DAB72BCD441B /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = ABF1EB97DDEE99B7756A635E;
-			productRefGroup = 5E69264F16EBC045B60AEA83 /* Products */;
+			mainGroup = 6C9EB9665AEF5A3FB0824E56;
+			productRefGroup = 555F1D48435E487DAE243143 /* Products */;
 			projectDirPath = "";
 			projectReferences = (
 			);
 			projectRoot = "";
 			targets = (
-				C727FFC23221CC6BD682E9A3 /* Pods-BeaconBroadcaster */,
-				E22FE5E50B199039F6B740D6 /* Pods-BeaconBroadcaster-libextobjc */,
-				3E83F9ED0417C17F1645E491 /* Pods-CarBuddy */,
-				6406F7A492BBF2142C777ABF /* Pods-CarBuddy-libextobjc */,
+				41FD017CBB34F1354BDA56BF /* Pods-BeaconBroadcaster */,
+				3E158C64EB568F96E17BE192 /* Pods-BeaconBroadcaster-libextobjc */,
+				09D6D4597F5084CDD5B09650 /* Pods-CarBuddy */,
+				7D197C4B27B4D76238D47DBA /* Pods-CarBuddy-BlocksKit */,
+				7E43E16D38E70E2435BACF4D /* Pods-CarBuddy-FruitMaskedTextfield */,
+				5B34D9261D7D5FEDC5176124 /* Pods-CarBuddy-libextobjc */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0BCA17289A0A9412935D3158 /* Sources */ = {
+		041BE1B498EE2C80F7D67B89 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E11C6E87E1ED40A035D52816 /* EXTADT.m in Sources */,
-				6F4EB7D64250B82DE5C64031 /* EXTConcreteProtocol.m in Sources */,
-				B5A49C518CF513DBAA8CCA27 /* EXTNil.m in Sources */,
-				FA9294AC45D3646E4000FCE3 /* EXTRuntimeExtensions.m in Sources */,
-				304599ED37DD1DD2DC396DEF /* EXTSafeCategory.m in Sources */,
-				1092C978FE2FD187523EB1A3 /* EXTScope.m in Sources */,
-				3622E2AE975A3DF9BF7D61B4 /* EXTSelectorChecking.m in Sources */,
-				489D528002DCA13654DEE92F /* NSInvocation+EXT.m in Sources */,
-				90F69C279678BBF46D9150B7 /* NSMethodSignature+EXT.m in Sources */,
-				9F24173C1DF87D082B2E5793 /* Pods-BeaconBroadcaster-libextobjc-dummy.m in Sources */,
+				A65357D079A6686D99135FEF /* EXTADT.m in Sources */,
+				D65DB8F8DB9C82668E282EEC /* EXTConcreteProtocol.m in Sources */,
+				2B15F6BEA808E2A6C6204079 /* EXTNil.m in Sources */,
+				D6175AAA3522F8E17E35B48E /* EXTRuntimeExtensions.m in Sources */,
+				FE37CF994B6D7A2176EAAFF1 /* EXTSafeCategory.m in Sources */,
+				093261EAC17A0867533D950A /* EXTScope.m in Sources */,
+				81A415661E0FE546C7070AE8 /* EXTSelectorChecking.m in Sources */,
+				4D95342D1C3D41928F44F847 /* NSInvocation+EXT.m in Sources */,
+				553B2398878FDE7FBD7E795C /* NSMethodSignature+EXT.m in Sources */,
+				9029E86EB0B21B086744033D /* Pods-BeaconBroadcaster-libextobjc-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		849BD6787B30029EB093A6D8 /* Sources */ = {
+		35131FAE1CDAE477FE4643B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C074662B33DF2769AF115539 /* Pods-CarBuddy-dummy.m in Sources */,
+				9791CF74042AF9D86A7B9F0F /* Pods-BeaconBroadcaster-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D231A7C9A12358A9F3C4A699 /* Sources */ = {
+		7AC6F026C2A8BA5F084B621F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B29C741611466891FE99A26 /* Pods-BeaconBroadcaster-dummy.m in Sources */,
+				EA975D0A113DFA498D59FC03 /* EXTADT.m in Sources */,
+				CCAF4E1419C0B27893BBE1CC /* EXTConcreteProtocol.m in Sources */,
+				479F77C209228A11B5B6915B /* EXTNil.m in Sources */,
+				5FAD4AFCDD040A73C8F5A940 /* EXTRuntimeExtensions.m in Sources */,
+				7A3976CBE4CD42C161BA51E0 /* EXTSafeCategory.m in Sources */,
+				D3592B5DC4D55805348CA720 /* EXTScope.m in Sources */,
+				D949BF49056DB46175612C7F /* EXTSelectorChecking.m in Sources */,
+				DBD356969139F9E9A8BFA933 /* NSInvocation+EXT.m in Sources */,
+				6D4E4D2B49720449B98888E5 /* NSMethodSignature+EXT.m in Sources */,
+				8092CA41165BFB0A66A2119B /* Pods-CarBuddy-libextobjc-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D7C84205B7D32664BC713BA9 /* Sources */ = {
+		BEB8EC0FF33FECCCD41ECBEC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C55A056F9A32DE72495BADCC /* EXTADT.m in Sources */,
-				000BD9125200A232BE6E82BC /* EXTConcreteProtocol.m in Sources */,
-				02E590A18FD410A3261581CA /* EXTNil.m in Sources */,
-				8A7496890D3B9E4C37FEB769 /* EXTRuntimeExtensions.m in Sources */,
-				917D375984E6217C360222F9 /* EXTSafeCategory.m in Sources */,
-				E98C1115046E517963357E58 /* EXTScope.m in Sources */,
-				08A81D448BBF7CA99F8EEA4F /* EXTSelectorChecking.m in Sources */,
-				3A4F0E9BEBBF409669A2539C /* NSInvocation+EXT.m in Sources */,
-				9BF74648BC2F46CB174A920D /* NSMethodSignature+EXT.m in Sources */,
-				040C04E62786417BEB5662D2 /* Pods-CarBuddy-libextobjc-dummy.m in Sources */,
+				4159CBE6B838D759661A5F8D /* FMTMaskedFormatter.m in Sources */,
+				4B2F6DFBF1DB27AA0DE8A634 /* Pods-CarBuddy-FruitMaskedTextfield-dummy.m in Sources */,
+				CF4BAB416727211676462CA9 /* UITextField+Mask.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1F051C13F7076A1673040AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD6F6EBA3A8C0AF4F0953A1 /* A2BlockInvocation.m in Sources */,
+				58AA81198BA4537FB49C9406 /* A2DynamicDelegate.m in Sources */,
+				CB122BE01AC45A8D4AD154A7 /* MFMailComposeViewController+BlocksKit.m in Sources */,
+				EBF1B004ACD8A9A878338237 /* MFMessageComposeViewController+BlocksKit.m in Sources */,
+				CFEC11AB63C402802EC111E7 /* NSArray+BlocksKit.m in Sources */,
+				9BA622F21914C7B2AFCC1666 /* NSCache+BlocksKit.m in Sources */,
+				2E38DC1787B85C927254FE70 /* NSDictionary+BlocksKit.m in Sources */,
+				7A06DD03A8C7F232C26D4B77 /* NSIndexSet+BlocksKit.m in Sources */,
+				AE73A16C796E43CB48C04F8C /* NSInvocation+BlocksKit.m in Sources */,
+				A96D0EB4DA225A03ABFA6B1C /* NSMutableArray+BlocksKit.m in Sources */,
+				AB7C30C86F75858B11A55322 /* NSMutableDictionary+BlocksKit.m in Sources */,
+				B0A83131A98926B1EBAB87B3 /* NSMutableIndexSet+BlocksKit.m in Sources */,
+				7D35AC1780A21D7CFA1C569C /* NSMutableOrderedSet+BlocksKit.m in Sources */,
+				DE20034F8637272AC60EE78D /* NSMutableSet+BlocksKit.m in Sources */,
+				58501BA5F101D017E81E9E77 /* NSObject+A2BlockDelegate.m in Sources */,
+				0BEE3997D0181C26A6BE8DF6 /* NSObject+A2DynamicDelegate.m in Sources */,
+				BFFD14DB0EC7739DD55D92E1 /* NSObject+BKAssociatedObjects.m in Sources */,
+				43E38EF037C0E3CA465CFE9D /* NSObject+BKBlockExecution.m in Sources */,
+				0440FDA1D3307832CFF3FFBB /* NSObject+BKBlockObservation.m in Sources */,
+				58CF375D56E802F9AEA87937 /* NSOrderedSet+BlocksKit.m in Sources */,
+				D4B3B30297FF1AF1B1D15729 /* NSSet+BlocksKit.m in Sources */,
+				ADB9BD7F521B0F4F3ED5E3C0 /* NSTimer+BlocksKit.m in Sources */,
+				695F1124A3214EA18B1DDA8A /* NSURLConnection+BlocksKit.m in Sources */,
+				3084BF8016A6D1384694C089 /* Pods-CarBuddy-BlocksKit-dummy.m in Sources */,
+				1088DD64A517A5167FADCC55 /* UIActionSheet+BlocksKit.m in Sources */,
+				0BD61649BF0BD87F8C3FB03A /* UIAlertView+BlocksKit.m in Sources */,
+				EF7746CC4D3E06C009FB731C /* UIBarButtonItem+BlocksKit.m in Sources */,
+				22E75791DF54AB8EA998C02D /* UIControl+BlocksKit.m in Sources */,
+				68FEED49DE8655C70C5683FD /* UIGestureRecognizer+BlocksKit.m in Sources */,
+				40E54EAE2925BE320BDB4252 /* UIImagePickerController+BlocksKit.m in Sources */,
+				1FD2882BBB3F8A5600886194 /* UIPopoverController+BlocksKit.m in Sources */,
+				33BC8C0E2BE97A47610E10AF /* UITextField+BlocksKit.m in Sources */,
+				F0B106AB38BF39F9BDBAD52B /* UIView+BlocksKit.m in Sources */,
+				C7662B2BB0E3F6CC66079D03 /* UIWebView+BlocksKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8537F2B585868D8FC81508C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B05DA869F7B16216CDC52C99 /* Pods-CarBuddy-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		34FDE647D044171C19A79F23 /* PBXTargetDependency */ = {
+		119004549D11F1BC299068FC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E22FE5E50B199039F6B740D6 /* Pods-BeaconBroadcaster-libextobjc */;
-			targetProxy = 489372FF2E4444E495C06D61 /* PBXContainerItemProxy */;
+			target = 7E43E16D38E70E2435BACF4D /* Pods-CarBuddy-FruitMaskedTextfield */;
+			targetProxy = CE8D11FAB9B75E3F33FC530C /* PBXContainerItemProxy */;
 		};
-		5C3D3E087BD6AF812CE99FEA /* PBXTargetDependency */ = {
+		5D02A3A63086BF1EA388CB7E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6406F7A492BBF2142C777ABF /* Pods-CarBuddy-libextobjc */;
-			targetProxy = 46F77C015663177293AB6418 /* PBXContainerItemProxy */;
+			target = 3E158C64EB568F96E17BE192 /* Pods-BeaconBroadcaster-libextobjc */;
+			targetProxy = 831DD22AD16A4FE6654D1628 /* PBXContainerItemProxy */;
+		};
+		AE1690904ACFADCACF29C3F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D197C4B27B4D76238D47DBA /* Pods-CarBuddy-BlocksKit */;
+			targetProxy = 5AD8589D19B37BB4A69597F1 /* PBXContainerItemProxy */;
+		};
+		BF5A7DD3AFF2FEDCCFB7DE77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B34D9261D7D5FEDC5176124 /* Pods-CarBuddy-libextobjc */;
+			targetProxy = AF11D3683B0BD90D551CC827 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2272E6D73B34BEFB5E0621B4 /* Debug */ = {
+		1F6EDFCCB77A30E0C3D36C45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 364DEDD0A30811FB42A7640E /* Pods-BeaconBroadcaster.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B43A52D1DE5CB968D7369CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"RELEASE=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		405CC98497B252EE07E4FAF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD8F2658720F5D6CCACED6A5 /* Pods-BeaconBroadcaster.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		555B9B7B6867B9A8FF59BE9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AB0837211341582B973B525 /* Pods-CarBuddy-FruitMaskedTextfield-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CarBuddy-FruitMaskedTextfield/Pods-CarBuddy-FruitMaskedTextfield-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86FDB53B2DE9B4B62461C874 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AB0837211341582B973B525 /* Pods-CarBuddy-FruitMaskedTextfield-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CarBuddy-FruitMaskedTextfield/Pods-CarBuddy-FruitMaskedTextfield-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8A2F169FD9C34FE4542AAB49 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -642,151 +1285,9 @@
 			};
 			name = Debug;
 		};
-		33ACC50773CF17535E458AB1 /* Release */ = {
+		92214E0E4C4BF3C605E04CBF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 882AAEA8EDBE8A6290377D00 /* Pods-BeaconBroadcaster-libextobjc-Private.xcconfig */;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = YES;
-				DSTROOT = /tmp/xcodeproj.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-BeaconBroadcaster-libextobjc/Pods-BeaconBroadcaster-libextobjc-prefix.pch";
-				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_CFLAGS = (
-					"-DNS_BLOCK_ASSERTIONS=1",
-					"$(inherited)",
-				);
-				OTHER_CPLUSPLUSFLAGS = (
-					"-DNS_BLOCK_ASSERTIONS=1",
-					"$(inherited)",
-				);
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		349DF66D4E29AC5E35F45E31 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = NO;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				COPY_PHASE_STRIP = NO;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"RELEASE=1",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				STRIP_INSTALLED_PRODUCT = NO;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		4319DEB7CFD24596F2AF6C2E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7CC15F5A68299904A3F8E2A /* Pods-BeaconBroadcaster.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/xcodeproj.dst;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		44E753C69E75493F31631BBC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 882AAEA8EDBE8A6290377D00 /* Pods-BeaconBroadcaster-libextobjc-Private.xcconfig */;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/xcodeproj.dst;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-BeaconBroadcaster-libextobjc/Pods-BeaconBroadcaster-libextobjc-prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		57BB90818B6B979EA9AAEB0E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB07524927B2D6B7950D4E42 /* Pods-CarBuddy-libextobjc-Private.xcconfig */;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/xcodeproj.dst;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-CarBuddy-libextobjc/Pods-CarBuddy-libextobjc-prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		7E1C00D584FAA5137552CA43 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F34E2779B4C711962BA92D61 /* Pods-BeaconBroadcaster.release.xcconfig */;
+			baseConfigurationReference = CD270ECE203412EFE173E75E /* Pods-CarBuddy.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
@@ -812,35 +1313,9 @@
 			};
 			name = Release;
 		};
-		8414435BF7187AD649BA6045 /* Debug */ = {
+		9848B832E192B974DC0652EC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 217595F2591B2FAED79F3196 /* Pods-CarBuddy.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/xcodeproj.dst;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		8CFB987D5183FE98D9E6A234 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB07524927B2D6B7950D4E42 /* Pods-CarBuddy-libextobjc-Private.xcconfig */;
+			baseConfigurationReference = 0555FEB0E21E0A842FA1F229 /* Pods-CarBuddy-libextobjc-Private.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
@@ -867,14 +1342,151 @@
 			};
 			name = Release;
 		};
-		F2B8D37B53245FD99C275652 /* Release */ = {
+		A9841157F6EE051BC0CE9483 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D9C97E5315655137876D015 /* Pods-CarBuddy.release.xcconfig */;
+			baseConfigurationReference = DA216B704E63F61B266634FC /* Pods-CarBuddy.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BFE4E17840AE97A3BF24DEE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A47E38149657FE0A02C87F17 /* Pods-CarBuddy-BlocksKit-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CarBuddy-BlocksKit/Pods-CarBuddy-BlocksKit-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C69E5D0F0211AB6A628EDEB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C44DBE709616038FEF75541 /* Pods-BeaconBroadcaster-libextobjc-Private.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				DSTROOT = /tmp/xcodeproj.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-BeaconBroadcaster-libextobjc/Pods-BeaconBroadcaster-libextobjc-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECF78D590B691AE23F12B284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C44DBE709616038FEF75541 /* Pods-BeaconBroadcaster-libextobjc-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-BeaconBroadcaster-libextobjc/Pods-BeaconBroadcaster-libextobjc-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EFDF1E7ACB4F00336AC966B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0555FEB0E21E0A842FA1F229 /* Pods-CarBuddy-libextobjc-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CarBuddy-libextobjc/Pods-CarBuddy-libextobjc-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F0785308130C779EAF44B7C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A47E38149657FE0A02C87F17 /* Pods-CarBuddy-BlocksKit-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CarBuddy-BlocksKit/Pods-CarBuddy-BlocksKit-prefix.pch";
 				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = (
@@ -898,52 +1510,70 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1542B93053FD23DF74738CDE /* Build configuration list for PBXProject "Pods" */ = {
+		1F1881A54A3AE4065DD641E1 /* Build configuration list for PBXNativeTarget "Pods-BeaconBroadcaster-libextobjc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2272E6D73B34BEFB5E0621B4 /* Debug */,
-				349DF66D4E29AC5E35F45E31 /* Release */,
+				ECF78D590B691AE23F12B284 /* Debug */,
+				C69E5D0F0211AB6A628EDEB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		38F290E14888F466C3C7B9B4 /* Build configuration list for PBXNativeTarget "Pods-BeaconBroadcaster-libextobjc" */ = {
+		286A476D68A965A7F55CDE7F /* Build configuration list for PBXNativeTarget "Pods-CarBuddy-libextobjc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				44E753C69E75493F31631BBC /* Debug */,
-				33ACC50773CF17535E458AB1 /* Release */,
+				EFDF1E7ACB4F00336AC966B7 /* Debug */,
+				9848B832E192B974DC0652EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6CE4BE9EB52F1DFD5F896197 /* Build configuration list for PBXNativeTarget "Pods-CarBuddy-libextobjc" */ = {
+		A1588B403559DAB72BCD441B /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				57BB90818B6B979EA9AAEB0E /* Debug */,
-				8CFB987D5183FE98D9E6A234 /* Release */,
+				8A2F169FD9C34FE4542AAB49 /* Debug */,
+				2B43A52D1DE5CB968D7369CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EB99E3678A8DFB00C34A3161 /* Build configuration list for PBXNativeTarget "Pods-BeaconBroadcaster" */ = {
+		C03DA4C4EE465B4458F9A58E /* Build configuration list for PBXNativeTarget "Pods-CarBuddy-BlocksKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4319DEB7CFD24596F2AF6C2E /* Debug */,
-				7E1C00D584FAA5137552CA43 /* Release */,
+				BFE4E17840AE97A3BF24DEE3 /* Debug */,
+				F0785308130C779EAF44B7C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F6583916A259ABFE059D2756 /* Build configuration list for PBXNativeTarget "Pods-CarBuddy" */ = {
+		CA7D74A9DFD8770632D2F507 /* Build configuration list for PBXNativeTarget "Pods-BeaconBroadcaster" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8414435BF7187AD649BA6045 /* Debug */,
-				F2B8D37B53245FD99C275652 /* Release */,
+				405CC98497B252EE07E4FAF5 /* Debug */,
+				1F6EDFCCB77A30E0C3D36C45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1D528365050C6C95867E439 /* Build configuration list for PBXNativeTarget "Pods-CarBuddy-FruitMaskedTextfield" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86FDB53B2DE9B4B62461C874 /* Debug */,
+				555B9B7B6867B9A8FF59BE9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F85E9C48313AAC1147AD56BC /* Build configuration list for PBXNativeTarget "Pods-CarBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9841157F6EE051BC0CE9483 /* Debug */,
+				92214E0E4C4BF3C605E04CBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F81C60A47EAAD6FF7DCDFD04 /* Project object */;
+	rootObject = F37BD5E70FFFEF32681B1816 /* Project object */;
 }

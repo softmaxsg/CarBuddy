@@ -8,6 +8,8 @@ xcodeproj 'BeaconBroadcaster.xcodeproj'
 target :CarBuddy do
   platform :ios, '7.0'
   pod "libextobjc"
+  pod "BlocksKit"
+  pod "FruitMaskedTextfield"
   xcodeproj 'CarBuddy.xcodeproj'
 end
 
