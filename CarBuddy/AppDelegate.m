@@ -6,12 +6,16 @@
 //
 
 #import "AppDelegate.h"
+#import "LocationService.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     [self configureNavigationBarsAppearance];
+
+    // Initializing location service and start monitoring if required
+    [LocationService instance];
 
     return YES;
 }

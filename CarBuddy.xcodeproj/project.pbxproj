@@ -12,6 +12,7 @@
 		CF59B1DF444783FF0854AF41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF59B26685924A57F1A14F6C /* Main.storyboard */; };
 		CF59B247EE0E811CB62E305A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF59BF0245CE298F868D2CA7 /* MainViewController.m */; };
 		CF59B2AFBD9EB0478337BAE5 /* NSString+StringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CF59BD96B393275A03E99946 /* NSString+StringUtils.m */; };
+		CF59B2BFB9175E3975800F09 /* LocationService.m in Sources */ = {isa = PBXBuildFile; fileRef = CF59BAFCD78ADE74485A9B36 /* LocationService.m */; };
 		CF59B2C64F009D75BDAFEB38 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF59BD4735866FE7F4E41B01 /* Images.xcassets */; };
 		CF59B5E45728829AB72230E5 /* BeaconDetailsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF59B38D23C2410AC7686250 /* BeaconDetailsTableViewController.m */; };
 		CF59B624BB53D06C35D84BE1 /* Beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = CF59B7CFDBB709C7ED560FD8 /* Beep.wav */; };
@@ -32,6 +33,7 @@
 		C0ADD1C5BF399DFB487A425E /* Pods-CarBuddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarBuddy.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarBuddy/Pods-CarBuddy.release.xcconfig"; sourceTree = "<group>"; };
 		CF59B01738757EB8D4B05230 /* BeaconDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconDetails.h; sourceTree = "<group>"; };
 		CF59B0D5C29D768DFAC23DF3 /* BeaconDetailsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconDetailsTableViewCell.h; sourceTree = "<group>"; };
+		CF59B23778DEA8359F65FA09 /* LocationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationService.h; sourceTree = "<group>"; };
 		CF59B3301BC574F098E91D38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF59B38D23C2410AC7686250 /* BeaconDetailsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconDetailsTableViewController.m; sourceTree = "<group>"; };
 		CF59B4017F8F63D4520E11B5 /* Alert.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Alert.wav; sourceTree = "<group>"; };
@@ -46,6 +48,7 @@
 		CF59B8EF078830BDE4BBC19B /* BeaconDetailsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconDetailsTableViewCell.m; sourceTree = "<group>"; };
 		CF59BA1122BC12E2468FFDA1 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		CF59BACAB12A87D60D208022 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		CF59BAFCD78ADE74485A9B36 /* LocationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationService.m; sourceTree = "<group>"; };
 		CF59BB07B8E55484BD2D65A2 /* BeaconDetailsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconDetailsTableViewController.h; sourceTree = "<group>"; };
 		CF59BB285ED3F9F6C2E83743 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		CF59BD34E3639B70CA569683 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
@@ -101,6 +104,8 @@
 			children = (
 				CF59BE3360D0CA120BBD8606 /* SoundsService.h */,
 				CF59B57533E881620595EC0A /* SoundsService.m */,
+				CF59B23778DEA8359F65FA09 /* LocationService.h */,
+				CF59BAFCD78ADE74485A9B36 /* LocationService.m */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -370,6 +375,7 @@
 				CF59B2AFBD9EB0478337BAE5 /* NSString+StringUtils.m in Sources */,
 				CF59B5E45728829AB72230E5 /* BeaconDetailsTableViewController.m in Sources */,
 				CF59BD886A30D4EFF3DC8079 /* SoundsService.m in Sources */,
+				CF59B2BFB9175E3975800F09 /* LocationService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

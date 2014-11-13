@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MainViewController : UIViewController <CLLocationManagerDelegate>
+@interface MainViewController : UIViewController
 
 @end
 
