@@ -18,6 +18,7 @@
 		CF59B93F3ADCBBFB9BAF4851 /* Alert.wav in Resources */ = {isa = PBXBuildFile; fileRef = CF59B4017F8F63D4520E11B5 /* Alert.wav */; };
 		CF59B96C22A34969F434ECC4 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF59B47A0E08EE35D364FD1A /* CoreBluetooth.framework */; };
 		CF59BA5A2C0441504AA168DC /* BeaconDetailsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF59B899BED676081C60044D /* BeaconDetailsViewModel.m */; };
+		CF59BD886A30D4EFF3DC8079 /* SoundsService.m in Sources */ = {isa = PBXBuildFile; fileRef = CF59B57533E881620595EC0A /* SoundsService.m */; };
 		CF59BDEFFED90AE18E71EFD3 /* BeaconDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = CF59B84626AA47E3FCCD3D98 /* BeaconDetails.m */; };
 		CF59BE10B0D87E686BF1B8EE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF59BB285ED3F9F6C2E83743 /* AudioToolbox.framework */; };
 		CF59BEF60116A880004C56C6 /* BeaconDetailsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF59B8EF078830BDE4BBC19B /* BeaconDetailsTableViewCell.m */; };
@@ -35,6 +36,7 @@
 		CF59B38D23C2410AC7686250 /* BeaconDetailsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconDetailsTableViewController.m; sourceTree = "<group>"; };
 		CF59B4017F8F63D4520E11B5 /* Alert.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Alert.wav; sourceTree = "<group>"; };
 		CF59B47A0E08EE35D364FD1A /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		CF59B57533E881620595EC0A /* SoundsService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundsService.m; sourceTree = "<group>"; };
 		CF59B57D2D9491471AF871A8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		CF59B63138FD31CDD96A8CAC /* NSString+StringUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringUtils.h"; sourceTree = "<group>"; };
 		CF59B7CFDBB709C7ED560FD8 /* Beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Beep.wav; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 		CF59BD34E3639B70CA569683 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		CF59BD4735866FE7F4E41B01 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CF59BD96B393275A03E99946 /* NSString+StringUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringUtils.m"; sourceTree = "<group>"; };
+		CF59BE3360D0CA120BBD8606 /* SoundsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundsService.h; sourceTree = "<group>"; };
 		CF59BF0245CE298F868D2CA7 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		D076FE6B1D6C0BF8324451CD /* libPods-CarBuddy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarBuddy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D89E0B471A0D7B32008933CB /* CarBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +94,15 @@
 				C0ADD1C5BF399DFB487A425E /* Pods-CarBuddy.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF59B28700D3A6C6FA8031C9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CF59BE3360D0CA120BBD8606 /* SoundsService.h */,
+				CF59B57533E881620595EC0A /* SoundsService.m */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		CF59B2FCD9AA73E2145F5D9D /* Resources */ = {
@@ -223,6 +235,7 @@
 				CF59B3A85FAC1FA738AC6D5C /* UI */,
 				CF59B72354C5BAF6E071134A /* Data */,
 				CF59B6E2E7B526E79061285A /* Utils */,
+				CF59B28700D3A6C6FA8031C9 /* Services */,
 			);
 			path = CarBuddy;
 			sourceTree = "<group>";
@@ -356,6 +369,7 @@
 				CF59BEF60116A880004C56C6 /* BeaconDetailsTableViewCell.m in Sources */,
 				CF59B2AFBD9EB0478337BAE5 /* NSString+StringUtils.m in Sources */,
 				CF59B5E45728829AB72230E5 /* BeaconDetailsTableViewController.m in Sources */,
+				CF59BD886A30D4EFF3DC8079 /* SoundsService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

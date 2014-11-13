@@ -6,10 +6,10 @@
 //
 
 #import <CoreLocation/CoreLocation.h>
-#import <AudioToolbox/AudioToolbox.h>
 #import "MainViewController.h"
 #import "BeaconDetails.h"
 #import "BeaconDetailsViewModel.h"
+#import "SoundsService.h"
 
 @interface MainViewController ()
 
@@ -38,10 +38,6 @@
 - (void)configureCarBeaconRegion;
 - (void)configureWalletBeaconRegion;
 
-- (void)playSound:(SystemSoundID)soundID;
-- (void)playForgottenWalletSound;
-- (void)playWarningBeepSound;
-
 - (void)showForgottenWalletAlert;
 - (void)alertUserIfRequired;
 
@@ -51,10 +47,6 @@
 @end
 
 @implementation MainViewController
-{
-    SystemSoundID forgottenWalletSoundID;
-    SystemSoundID warningBeepSoundID;
-}
 
 - (void)setCarBeaconProximity:(CLProximity)carBeaconProximity
 {
@@ -108,13 +100,6 @@
     carImageView.image = [carImageView.image imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
     walletImageView.image = [walletImageView.image imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
 
-#pragma clang diagnostic push
-#pragma ide diagnostic ignored "OCNotLocalizedStringInspection"
-    NSBundle *mainBundle = [NSBundle mainBundle];
-    AudioServicesCreateSystemSoundID((__bridge CFURLRef)[mainBundle URLForResource:@"Alert" withExtension:@"wav"], &forgottenWalletSoundID);
-    AudioServicesCreateSystemSoundID((__bridge CFURLRef)[mainBundle URLForResource:@"Beep" withExtension:@"wav"], &warningBeepSoundID);
-#pragma clang diagnostic pop
-
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(applicationDidBecomeActive:)
                                                  name:UIApplicationDidBecomeActiveNotification
@@ -140,9 +125,6 @@
     [[NSNotificationCenter defaultCenter] removeObserver:self];
     [self removeModelObservers];
     [self stopTimers];
-
-    AudioServicesDisposeSystemSoundID(forgottenWalletSoundID);
-    AudioServicesDisposeSystemSoundID(warningBeepSoundID);
 }
 
 - (void)startTimers
@@ -259,25 +241,6 @@
     }
 }
 
-- (void)playSound:(SystemSoundID)soundID
-{
-    if ([UIApplication sharedApplication].applicationState == UIApplicationStateActive)
-    {
-        AudioServicesPlaySystemSound(soundID);
-    }
-}
-
-- (void)playForgottenWalletSound
-{
-    [self playSound:forgottenWalletSoundID];
-}
-
-
-- (void)playWarningBeepSound
-{
-    [self playSound:warningBeepSoundID];
-}
-
 - (void)showForgottenWalletAlert
 {
     if (self.forgottenWalletAlertDisplayed) return;
@@ -295,7 +258,8 @@
                                                   otherButtonTitles:nil];
 
         [alertView show];
-        [self playForgottenWalletSound];
+
+        [[SoundsService instance] playAlertSound];
     }
     else
     {
@@ -341,7 +305,7 @@
     if ((walletBeaconProximity == CLProximityFar && (carBeaconProximity == CLProximityImmediate || carBeaconProximity == CLProximityNear)) ||
         (walletBeaconProximity == CLProximityUnknown && carBeaconProximity == CLProximityFar))
     {
-        [self playWarningBeepSound];
+        [[SoundsService instance] playBeepSound];
     }
 }
 
