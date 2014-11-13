@@ -72,7 +72,10 @@
 {
     if (object == self.toggleBroadcastingStatusButton && [keyPath isEqualToString:@keypath(UIButton.new, selected)])
     {
-        self.broadcastingStatusImageView.image = [change[NSKeyValueChangeNewKey] boolValue] ? _broadcastingImage : _broadcastingStoppedImage;
+        BOOL selected = [change[NSKeyValueChangeNewKey] boolValue];
+        [UIApplication sharedApplication].idleTimerDisabled = selected;
+
+        self.broadcastingStatusImageView.image = selected ? _broadcastingImage : _broadcastingStoppedImage;
     }
 }
 
