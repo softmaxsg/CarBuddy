@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		59306D40FA78F02547C639EB /* libPods-CarBuddy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D076FE6B1D6C0BF8324451CD /* libPods-CarBuddy.a */; };
+		CF59B035C06E6D5DD6CAFF58 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF59B57D2D9491471AF871A8 /* CoreLocation.framework */; };
 		CF59B1DF444783FF0854AF41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF59B26685924A57F1A14F6C /* Main.storyboard */; };
 		CF59B247EE0E811CB62E305A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF59BF0245CE298F868D2CA7 /* MainViewController.m */; };
 		CF59B2AFBD9EB0478337BAE5 /* NSString+StringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CF59BD96B393275A03E99946 /* NSString+StringUtils.m */; };
 		CF59B2C64F009D75BDAFEB38 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF59BD4735866FE7F4E41B01 /* Images.xcassets */; };
 		CF59B5E45728829AB72230E5 /* BeaconDetailsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF59B38D23C2410AC7686250 /* BeaconDetailsTableViewController.m */; };
+		CF59B624BB53D06C35D84BE1 /* Beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = CF59B7CFDBB709C7ED560FD8 /* Beep.wav */; };
+		CF59B93F3ADCBBFB9BAF4851 /* Alert.wav in Resources */ = {isa = PBXBuildFile; fileRef = CF59B4017F8F63D4520E11B5 /* Alert.wav */; };
+		CF59B96C22A34969F434ECC4 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF59B47A0E08EE35D364FD1A /* CoreBluetooth.framework */; };
 		CF59BA5A2C0441504AA168DC /* BeaconDetailsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF59B899BED676081C60044D /* BeaconDetailsViewModel.m */; };
 		CF59BDEFFED90AE18E71EFD3 /* BeaconDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = CF59B84626AA47E3FCCD3D98 /* BeaconDetails.m */; };
+		CF59BE10B0D87E686BF1B8EE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF59BB285ED3F9F6C2E83743 /* AudioToolbox.framework */; };
 		CF59BEF60116A880004C56C6 /* BeaconDetailsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF59B8EF078830BDE4BBC19B /* BeaconDetailsTableViewCell.m */; };
 		CF59BF5058FCFDCD201FCCC6 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF59BA1122BC12E2468FFDA1 /* SettingsViewController.m */; };
 		D89E0B4D1A0D7B32008933CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D89E0B4C1A0D7B32008933CB /* main.m */; };
@@ -28,7 +33,11 @@
 		CF59B0D5C29D768DFAC23DF3 /* BeaconDetailsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconDetailsTableViewCell.h; sourceTree = "<group>"; };
 		CF59B3301BC574F098E91D38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF59B38D23C2410AC7686250 /* BeaconDetailsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconDetailsTableViewController.m; sourceTree = "<group>"; };
+		CF59B4017F8F63D4520E11B5 /* Alert.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Alert.wav; sourceTree = "<group>"; };
+		CF59B47A0E08EE35D364FD1A /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		CF59B57D2D9491471AF871A8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		CF59B63138FD31CDD96A8CAC /* NSString+StringUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringUtils.h"; sourceTree = "<group>"; };
+		CF59B7CFDBB709C7ED560FD8 /* Beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Beep.wav; sourceTree = "<group>"; };
 		CF59B84626AA47E3FCCD3D98 /* BeaconDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconDetails.m; sourceTree = "<group>"; };
 		CF59B899BED676081C60044D /* BeaconDetailsViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconDetailsViewModel.m; sourceTree = "<group>"; };
 		CF59B8A7CAA51414DE646AF4 /* BeaconDetailsViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconDetailsViewModel.h; sourceTree = "<group>"; };
@@ -36,6 +45,7 @@
 		CF59BA1122BC12E2468FFDA1 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		CF59BACAB12A87D60D208022 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		CF59BB07B8E55484BD2D65A2 /* BeaconDetailsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconDetailsTableViewController.h; sourceTree = "<group>"; };
+		CF59BB285ED3F9F6C2E83743 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		CF59BD34E3639B70CA569683 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		CF59BD4735866FE7F4E41B01 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CF59BD96B393275A03E99946 /* NSString+StringUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringUtils.m"; sourceTree = "<group>"; };
@@ -54,6 +64,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				59306D40FA78F02547C639EB /* libPods-CarBuddy.a in Frameworks */,
+				CF59B96C22A34969F434ECC4 /* CoreBluetooth.framework in Frameworks */,
+				CF59B035C06E6D5DD6CAFF58 /* CoreLocation.framework in Frameworks */,
+				CF59BE10B0D87E686BF1B8EE /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +77,9 @@
 			isa = PBXGroup;
 			children = (
 				D076FE6B1D6C0BF8324451CD /* libPods-CarBuddy.a */,
+				CF59B47A0E08EE35D364FD1A /* CoreBluetooth.framework */,
+				CF59B57D2D9491471AF871A8 /* CoreLocation.framework */,
+				CF59BB285ED3F9F6C2E83743 /* AudioToolbox.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -81,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				CF59BD4735866FE7F4E41B01 /* Images.xcassets */,
+				CF59B4751D3462AA3E9E700A /* Sounds */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -110,6 +127,15 @@
 				CF59B899BED676081C60044D /* BeaconDetailsViewModel.m */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CF59B4751D3462AA3E9E700A /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				CF59B7CFDBB709C7ED560FD8 /* Beep.wav */,
+				CF59B4017F8F63D4520E11B5 /* Alert.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 		CF59B6C4CDFA16BF95F7F500 /* Main */ = {
@@ -276,6 +302,8 @@
 			files = (
 				CF59B2C64F009D75BDAFEB38 /* Images.xcassets in Resources */,
 				CF59B1DF444783FF0854AF41 /* Main.storyboard in Resources */,
+				CF59B624BB53D06C35D84BE1 /* Beep.wav in Resources */,
+				CF59B93F3ADCBBFB9BAF4851 /* Alert.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +474,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 			};
 			name = Release;
 		};

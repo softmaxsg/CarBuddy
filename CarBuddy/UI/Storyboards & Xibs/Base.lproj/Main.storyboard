@@ -48,6 +48,9 @@
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <state key="selected" title="Stop" backgroundImage="ButtonStop"/>
+                                        <connections>
+                                            <action selector="toggleMonitoringStatusTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="d1k-yy-jMt"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -78,6 +81,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="carImageView" destination="Sb2-md-EMG" id="7Ec-V8-bOf"/>
+                        <outlet property="toggleMonitoringButton" destination="2nw-IJ-FDC" id="Soe-FZ-tie"/>
                         <outlet property="walletImageView" destination="OLp-fZ-5yC" id="L1S-LJ-XFO"/>
                     </connections>
                 </viewController>
