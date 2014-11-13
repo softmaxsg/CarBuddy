@@ -11,6 +11,7 @@
 
 @interface BeaconDetails ()
 
+@property (nonatomic) NSMutableSet *observers;
 @property (nonatomic, readwrite) BeaconKind kind;
 
 @end
@@ -21,6 +22,7 @@
 {
     if ((self = [super init]))
     {
+        self.observers = [NSMutableSet set];
         self.kind = kind;
     }
 
@@ -68,14 +70,21 @@
 
 - (void)addObserver:(NSObject *)observer options:(NSKeyValueObservingOptions)options context:(void *)context
 {
+    [self.observers addObject:observer];
+
     [self addObserver:observer forKeyPath:@keypath(self.uuid) options:options context:context];
     [self addObserver:observer forKeyPath:@keypath(self.identifier) options:options context:context];
 }
 
 - (void)removeObserver:(NSObject *)observer
 {
-    [self removeObserver:observer forKeyPath:@keypath(self.uuid)];
-    [self removeObserver:observer forKeyPath:@keypath(self.identifier)];
+    if ([self.observers containsObject:observer])
+    {
+        [self removeObserver:observer forKeyPath:@keypath(self.uuid)];
+        [self removeObserver:observer forKeyPath:@keypath(self.identifier)];
+
+        [self.observers removeObject:observer];
+    }
 }
 
 @end

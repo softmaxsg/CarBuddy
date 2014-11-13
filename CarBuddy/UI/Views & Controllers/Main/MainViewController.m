@@ -33,6 +33,9 @@
 
 - (void)beaconRegion:(CLBeaconRegion *)beaconRegion logChangedProximity:(CLProximity)proximity;
 
+- (void)addModelObservers;
+- (void)removeModelObservers;
+
 - (void)configureBeaconRegions;
 - (CLBeaconRegion *)configureRegionForBeacon:(BeaconDetails *)beacon oldRegion:(CLBeaconRegion *)oldRegion;
 - (void)configureCarBeaconRegion;
