@@ -17,7 +17,6 @@
 		CF59BDEFFED90AE18E71EFD3 /* BeaconDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = CF59B84626AA47E3FCCD3D98 /* BeaconDetails.m */; };
 		CF59BEF60116A880004C56C6 /* BeaconDetailsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF59B8EF078830BDE4BBC19B /* BeaconDetailsTableViewCell.m */; };
 		CF59BF5058FCFDCD201FCCC6 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF59BA1122BC12E2468FFDA1 /* SettingsViewController.m */; };
-		CF59BF583CB3F58951F3B69D /* SettingsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF59B7E2AE5A069D1BC5B72C /* SettingsViewModel.m */; };
 		D89E0B4D1A0D7B32008933CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D89E0B4C1A0D7B32008933CB /* main.m */; };
 		D89E0B501A0D7B32008933CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D89E0B4F1A0D7B32008933CB /* AppDelegate.m */; };
 /* End PBXBuildFile section */
@@ -27,11 +26,9 @@
 		C0ADD1C5BF399DFB487A425E /* Pods-CarBuddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarBuddy.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarBuddy/Pods-CarBuddy.release.xcconfig"; sourceTree = "<group>"; };
 		CF59B01738757EB8D4B05230 /* BeaconDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconDetails.h; sourceTree = "<group>"; };
 		CF59B0D5C29D768DFAC23DF3 /* BeaconDetailsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconDetailsTableViewCell.h; sourceTree = "<group>"; };
-		CF59B1ABC1CAF253851A719E /* SettingsViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewModel.h; sourceTree = "<group>"; };
 		CF59B3301BC574F098E91D38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF59B38D23C2410AC7686250 /* BeaconDetailsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconDetailsTableViewController.m; sourceTree = "<group>"; };
 		CF59B63138FD31CDD96A8CAC /* NSString+StringUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringUtils.h"; sourceTree = "<group>"; };
-		CF59B7E2AE5A069D1BC5B72C /* SettingsViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewModel.m; sourceTree = "<group>"; };
 		CF59B84626AA47E3FCCD3D98 /* BeaconDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconDetails.m; sourceTree = "<group>"; };
 		CF59B899BED676081C60044D /* BeaconDetailsViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconDetailsViewModel.m; sourceTree = "<group>"; };
 		CF59B8A7CAA51414DE646AF4 /* BeaconDetailsViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconDetailsViewModel.h; sourceTree = "<group>"; };
@@ -111,8 +108,6 @@
 			children = (
 				CF59B8A7CAA51414DE646AF4 /* BeaconDetailsViewModel.h */,
 				CF59B899BED676081C60044D /* BeaconDetailsViewModel.m */,
-				CF59B1ABC1CAF253851A719E /* SettingsViewModel.h */,
-				CF59B7E2AE5A069D1BC5B72C /* SettingsViewModel.m */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -328,7 +323,6 @@
 				D89E0B4D1A0D7B32008933CB /* main.m in Sources */,
 				CF59BDEFFED90AE18E71EFD3 /* BeaconDetails.m in Sources */,
 				CF59BA5A2C0441504AA168DC /* BeaconDetailsViewModel.m in Sources */,
-				CF59BF583CB3F58951F3B69D /* SettingsViewModel.m in Sources */,
 				CF59BF5058FCFDCD201FCCC6 /* SettingsViewController.m in Sources */,
 				CF59B247EE0E811CB62E305A /* MainViewController.m in Sources */,
 				CF59BEF60116A880004C56C6 /* BeaconDetailsTableViewCell.m in Sources */,

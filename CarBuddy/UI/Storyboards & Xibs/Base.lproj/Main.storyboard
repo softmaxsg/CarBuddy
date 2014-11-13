@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6243"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Car Buddy-->
@@ -151,38 +150,6 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection footerTitle="Turning this ON decreases monitoring accuracy in background mode" id="grk-RJ-Vov">
-                                <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="44" id="8OV-3z-uP7" userLabel="Energy Saving Mode Cell">
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8OV-3z-uP7" id="CIf-Df-lJH">
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Energy Saving Mode" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ttf-BE-XGZ">
-                                                    <rect key="frame" x="15" y="2" width="502" height="40"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="O9n-rp-W2O">
-                                                    <rect key="frame" x="530" y="6" width="52" height="31"/>
-                                                    <connections>
-                                                        <action selector="energySavingModeChanged" destination="rae-A0-xHk" eventType="valueChanged" id="1Wk-2x-ylW"/>
-                                                    </connections>
-                                                </switch>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="O9n-rp-W2O" firstAttribute="centerY" secondItem="CIf-Df-lJH" secondAttribute="centerY" id="Dc7-kQ-z2c"/>
-                                                <constraint firstItem="Ttf-BE-XGZ" firstAttribute="leading" secondItem="CIf-Df-lJH" secondAttribute="leading" constant="15" id="JKe-xA-Ao6"/>
-                                                <constraint firstAttribute="bottom" secondItem="Ttf-BE-XGZ" secondAttribute="bottom" constant="1" id="VYe-V2-XQk"/>
-                                                <constraint firstItem="Ttf-BE-XGZ" firstAttribute="top" secondItem="CIf-Df-lJH" secondAttribute="top" constant="2" id="XIR-Jl-op6"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="O9n-rp-W2O" secondAttribute="trailing" constant="13" id="b2c-KF-HaJ"/>
-                                                <constraint firstItem="O9n-rp-W2O" firstAttribute="leading" secondItem="Ttf-BE-XGZ" secondAttribute="trailing" constant="13" id="v1K-tW-rSh"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </cells>
-                            </tableViewSection>
                         </sections>
                         <connections>
                             <outlet property="dataSource" destination="rae-A0-xHk" id="Jea-Yp-ZyT"/>
@@ -199,7 +166,6 @@
                     </navigationItem>
                     <connections>
                         <outlet property="carBeaconCell" destination="u4z-4f-T5a" id="dGK-Cl-TMm"/>
-                        <outlet property="energySavingModeSwitch" destination="O9n-rp-W2O" id="WXB-4p-cmi"/>
                         <outlet property="walletBeaconCell" destination="PtQ-hj-laz" id="ZHr-xZ-l6B"/>
                     </connections>
                 </tableViewController>

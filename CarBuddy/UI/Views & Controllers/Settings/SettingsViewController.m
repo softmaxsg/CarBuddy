@@ -6,7 +6,6 @@
 //
 
 #import "SettingsViewController.h"
-#import "SettingsViewModel.h"
 #import "BeaconDetailsTableViewCell.h"
 #import "BeaconDetailsViewModel.h"
 
@@ -14,9 +13,6 @@
 
 @property (nonatomic) IBOutlet BeaconDetailsTableViewCell *carBeaconCell;
 @property (nonatomic) IBOutlet BeaconDetailsTableViewCell *walletBeaconCell;
-@property (nonatomic) IBOutlet UISwitch *energySavingModeSwitch;
-
-- (IBAction)energySavingModeChanged;
 
 @end
 
@@ -29,8 +25,6 @@
     BeaconDetailsViewModel *beaconsViewModel = [BeaconDetailsViewModel instance];
     self.carBeaconCell.beacon = [beaconsViewModel beaconForKind:BeaconKindCar];
     self.walletBeaconCell.beacon = [beaconsViewModel beaconForKind:BeaconKindWallet];
-
-    self.energySavingModeSwitch.on = [SettingsViewModel instance].energySavingMode;
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
@@ -41,11 +35,6 @@
     {
         [segue.destinationViewController setBeacon:[sender beacon]];
     }
-}
-
-- (IBAction)energySavingModeChanged
-{
-    [SettingsViewModel instance].energySavingMode = self.energySavingModeSwitch.on;
 }
 
 @end
